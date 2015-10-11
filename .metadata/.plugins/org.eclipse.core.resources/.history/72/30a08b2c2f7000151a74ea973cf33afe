@@ -62,9 +62,9 @@ int main(void)
 			{
 				NextPWM();		//Conmutación
 				Giro0 = 1;		//Flag para incrementar o decrementar duty
-				Inertia--;		//Contador decreciente para encontrar BEMF
-				if(Inertia==0)
-					CloseLoop=1;	//Final del contador -> entro en lazo cerrado
+				//Inertia--;		//Contador decreciente para encontrar BEMF
+				//if(Inertia==0)
+				//	CloseLoop=1;	//Final del contador -> entro en lazo cerrado
 			}
 		}else{					//Lazo cerrado
 			Zero_Detect();		//Detección de cruces por cero (cincronismo)

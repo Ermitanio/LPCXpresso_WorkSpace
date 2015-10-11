@@ -306,3 +306,28 @@ arm-none-eabi-size "LPCOpen_PWM-MotorBrushless.axf" ; arm-none-eabi-objcopy -v -
    9368	    132	    372	   9872	   2690	LPCOpen_PWM-MotorBrushless.axf
 copy from `LPCOpen_PWM-MotorBrushless.axf' [elf32-littlearm] to `LPCOpen_PWM-MotorBrushless.bin' [binary]
 Created checksum 0xefff74b2 at offset 0x1c in file LPCOpen_PWM-MotorBrushless.bin 
+12:46:01 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r all 
+make: Nothing to be done for `all'.
+12:46:02 **** Incremental Build of configuration Debug for project lpc_chip_175x_6x ****
+make -r all 
+make: Nothing to be done for `all'.
+12:46:06 **** Incremental Build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
+make -r all 
+Building file: ../src/LPCOpen_PWM-MotorBrushless.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/LPCOpen_PWM-MotorBrushless.d" -MT"src/LPCOpen_PWM-MotorBrushless.o" -MT"src/LPCOpen_PWM-MotorBrushless.d" -o "src/LPCOpen_PWM-MotorBrushless.o" "../src/LPCOpen_PWM-MotorBrushless.c"
+Finished building: ../src/LPCOpen_PWM-MotorBrushless.c
+ 
+Building target: LPCOpen_PWM-MotorBrushless.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\Debug" -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug" -Xlinker -Map="LPCOpen_PWM-MotorBrushless.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "LPCOpen_PWM-MotorBrushless_Debug.ld" -o "LPCOpen_PWM-MotorBrushless.axf"  ./src/LPCOpen_PWM-MotorBrushless.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1769 -llpc_chip_175x_6x
+Finished building target: LPCOpen_PWM-MotorBrushless.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPCOpen_PWM-MotorBrushless.axf" ; arm-none-eabi-objcopy -v -O binary "LPCOpen_PWM-MotorBrushless.axf" "LPCOpen_PWM-MotorBrushless.bin" ; checksum -p LPC1769 -d "LPCOpen_PWM-MotorBrushless.bin" ; arm-none-eabi-objcopy -I binary "LPCOpen_PWM-MotorBrushless.bin" -O ihex "LPCOpen_PWM-MotorBrushless.hex"
+   text	   data	    bss	    dec	    hex	filename
+   9384	    132	    372	   9888	   26a0	LPCOpen_PWM-MotorBrushless.axf
+copy from `LPCOpen_PWM-MotorBrushless.axf' [elf32-littlearm] to `LPCOpen_PWM-MotorBrushless.bin' [binary]
+Created checksum 0xefff74b2 at offset 0x1c in file LPCOpen_PWM-MotorBrushless.bin 
