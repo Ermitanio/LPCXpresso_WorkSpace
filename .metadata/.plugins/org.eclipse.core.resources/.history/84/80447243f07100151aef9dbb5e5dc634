@@ -47,7 +47,7 @@ struct StartParams_s {		// params for startup seq.
 	long duration; 			// duration of accel phase of startup, us
 	long periodRange[2]; 	// commutation period range for startup, us
 	float powerRange[2];  	// frac of full power over startup accel
-} start= { 400,   {460, 120},   {10, 300} };	//Cantidad de pasos, período inicial y final, pwm inicial y final para startup
+} start= { 200,   {230, 60},   {5, 300} };	//Cantidad de pasos, período inicial y final, pwm inicial y final para startup
 												//-----> 50*20microseg = 1mSeg
 long StepPeriod;     			// step duration, us
 uint16_t DutyCycle, DutyCycle0; 	// fraction of period hi pins are high

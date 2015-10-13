@@ -1,4 +1,4 @@
-12:46:06 **** Incremental Build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
+18:20:51 **** Incremental Build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
 make -r all 
 Building file: ../src/LPCOpen_PWM-MotorBrushless.c
 Invoking: MCU C Compiler
@@ -14,9 +14,9 @@ make --no-print-directory post-build
 Performing post-build steps
 arm-none-eabi-size "LPCOpen_PWM-MotorBrushless.axf" ; arm-none-eabi-objcopy -v -O binary "LPCOpen_PWM-MotorBrushless.axf" "LPCOpen_PWM-MotorBrushless.bin" ; checksum -p LPC1769 -d "LPCOpen_PWM-MotorBrushless.bin" ; arm-none-eabi-objcopy -I binary "LPCOpen_PWM-MotorBrushless.bin" -O ihex "LPCOpen_PWM-MotorBrushless.hex"
    text	   data	    bss	    dec	    hex	filename
-   9384	    132	    372	   9888	   26a0	LPCOpen_PWM-MotorBrushless.axf
+   9376	    132	    372	   9880	   2698	LPCOpen_PWM-MotorBrushless.axf
 copy from `LPCOpen_PWM-MotorBrushless.axf' [elf32-littlearm] to `LPCOpen_PWM-MotorBrushless.bin' [binary]
 Created checksum 0xefff74b2 at offset 0x1c in file LPCOpen_PWM-MotorBrushless.bin 
 
-12:46:07 Build Finished (took 748ms)
+18:20:52 Build Finished (took 1s.16ms)
 

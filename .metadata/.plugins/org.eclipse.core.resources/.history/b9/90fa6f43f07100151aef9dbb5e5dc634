@@ -153,7 +153,7 @@ void Start_Up_Brushless(void)
 		t++;																					//desde periodRange0 hasta periodRange1
 	}
 
-	DutyCycle = 150;		// (75/500)-> 15% Duty
+	DutyCycle = 300;		// (75/500)-> 15% Duty
 	//DutyCycle = 0.5 * (start.powerRange[0] + start.powerRange[1]); // Reduce Duty al final del arranque
 
 	Chip_PWM_SetMatch(LPC_PWM1, 5, DutyCycle);
