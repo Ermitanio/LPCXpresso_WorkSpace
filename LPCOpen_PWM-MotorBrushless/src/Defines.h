@@ -46,14 +46,14 @@ volatile uint8_t CruceZero[3]={0,0,0}, CruceZero0[3]={0,0,0};
 struct StartParams_s {		// params for startup seq.
 	long duration; 			// duration of accel phase of startup, us
 	long periodRange[2]; 	// commutation period range for startup, us
-	float powerRange[2];  	// frac of full power over startup accel
-} start= { 400,   {460, 120},   {10, 300} };	//Cantidad de pasos, período inicial y final, pwm inicial y final para startup
+	long powerRange[2];  	// frac of full power over startup accel
+} start= { 150,   {180, 30},   {20, 320} };	//Cantidad de pasos, período inicial y final, pwm inicial y final para startup
 												//-----> 50*20microseg = 1mSeg
 long StepPeriod;     			// step duration, us
-uint16_t DutyCycle, DutyCycle0; 	// fraction of period hi pins are high
+volatile uint16_t DutyCycle, DutyCycle0; 	// fraction of period hi pins are high
 
 volatile int StepID=0;  		// commutation step counter, 0..5
-long Count=0;  					// no full commutation cycles completed
+uint8_t Count=0;  					// no full commutation cycles completed
 
 //FUNCIONES
 //-----------------------------------------------------------------------------------------------

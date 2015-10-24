@@ -1,10 +1,39 @@
-18:20:44 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+16:33:48 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
 make -r all 
 make: Nothing to be done for `all'.
-18:20:46 **** Incremental Build of configuration Debug for project lpc_chip_175x_6x ****
+16:33:48 **** Incremental Build of configuration Debug for project lpc_chip_175x_6x ****
 make -r all 
 make: Nothing to be done for `all'.
-18:20:51 **** Incremental Build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
+16:33:51 **** Incremental Build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
+make -r all 
+Building file: ../src/LPCOpen_PWM-MotorBrushless.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/LPCOpen_PWM-MotorBrushless.d" -MT"src/LPCOpen_PWM-MotorBrushless.o" -MT"src/LPCOpen_PWM-MotorBrushless.d" -o "src/LPCOpen_PWM-MotorBrushless.o" "../src/LPCOpen_PWM-MotorBrushless.c"
+../src/LPCOpen_PWM-MotorBrushless.c: In function 'main':
+../src/LPCOpen_PWM-MotorBrushless.c:12:45: warning: variable 'Inertia' set but not used [-Wunused-but-set-variable]
+  uint16_t Giro = 0, Giro0 = 0, CloseLoop=0, Inertia=0xFF;
+                                             ^
+Finished building: ../src/LPCOpen_PWM-MotorBrushless.c
+ 
+Building target: LPCOpen_PWM-MotorBrushless.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\Debug" -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug" -Xlinker -Map="LPCOpen_PWM-MotorBrushless.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "LPCOpen_PWM-MotorBrushless_Debug.ld" -o "LPCOpen_PWM-MotorBrushless.axf"  ./src/LPCOpen_PWM-MotorBrushless.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1769 -llpc_chip_175x_6x
+Finished building target: LPCOpen_PWM-MotorBrushless.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPCOpen_PWM-MotorBrushless.axf" ; arm-none-eabi-objcopy -v -O binary "LPCOpen_PWM-MotorBrushless.axf" "LPCOpen_PWM-MotorBrushless.bin" ; checksum -p LPC1769 -d "LPCOpen_PWM-MotorBrushless.bin" ; arm-none-eabi-objcopy -I binary "LPCOpen_PWM-MotorBrushless.bin" -O ihex "LPCOpen_PWM-MotorBrushless.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6876	    132	    372	   7380	   1cd4	LPCOpen_PWM-MotorBrushless.axf
+copy from `LPCOpen_PWM-MotorBrushless.axf' [elf32-littlearm] to `LPCOpen_PWM-MotorBrushless.bin' [binary]
+Created checksum 0xefff74b2 at offset 0x1c in file LPCOpen_PWM-MotorBrushless.bin 
+16:40:10 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r all 
+make: Nothing to be done for `all'.
+16:40:11 **** Incremental Build of configuration Debug for project lpc_chip_175x_6x ****
+make -r all 
+make: Nothing to be done for `all'.
+16:40:14 **** Incremental Build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
 make -r all 
 Building file: ../src/LPCOpen_PWM-MotorBrushless.c
 Invoking: MCU C Compiler
@@ -20,6 +49,437 @@ make --no-print-directory post-build
 Performing post-build steps
 arm-none-eabi-size "LPCOpen_PWM-MotorBrushless.axf" ; arm-none-eabi-objcopy -v -O binary "LPCOpen_PWM-MotorBrushless.axf" "LPCOpen_PWM-MotorBrushless.bin" ; checksum -p LPC1769 -d "LPCOpen_PWM-MotorBrushless.bin" ; arm-none-eabi-objcopy -I binary "LPCOpen_PWM-MotorBrushless.bin" -O ihex "LPCOpen_PWM-MotorBrushless.hex"
    text	   data	    bss	    dec	    hex	filename
-   9376	    132	    372	   9880	   2698	LPCOpen_PWM-MotorBrushless.axf
+   6892	    132	    372	   7396	   1ce4	LPCOpen_PWM-MotorBrushless.axf
+copy from `LPCOpen_PWM-MotorBrushless.axf' [elf32-littlearm] to `LPCOpen_PWM-MotorBrushless.bin' [binary]
+Created checksum 0xefff74b2 at offset 0x1c in file LPCOpen_PWM-MotorBrushless.bin 
+17:02:02 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r all 
+make: Nothing to be done for `all'.
+17:02:02 **** Incremental Build of configuration Debug for project lpc_chip_175x_6x ****
+make -r all 
+make: Nothing to be done for `all'.
+17:02:05 **** Incremental Build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
+make -r all 
+Building file: ../src/LPCOpen_PWM-MotorBrushless.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/LPCOpen_PWM-MotorBrushless.d" -MT"src/LPCOpen_PWM-MotorBrushless.o" -MT"src/LPCOpen_PWM-MotorBrushless.d" -o "src/LPCOpen_PWM-MotorBrushless.o" "../src/LPCOpen_PWM-MotorBrushless.c"
+Finished building: ../src/LPCOpen_PWM-MotorBrushless.c
+ 
+Building target: LPCOpen_PWM-MotorBrushless.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\Debug" -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug" -Xlinker -Map="LPCOpen_PWM-MotorBrushless.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "LPCOpen_PWM-MotorBrushless_Debug.ld" -o "LPCOpen_PWM-MotorBrushless.axf"  ./src/LPCOpen_PWM-MotorBrushless.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1769 -llpc_chip_175x_6x
+Finished building target: LPCOpen_PWM-MotorBrushless.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPCOpen_PWM-MotorBrushless.axf" ; arm-none-eabi-objcopy -v -O binary "LPCOpen_PWM-MotorBrushless.axf" "LPCOpen_PWM-MotorBrushless.bin" ; checksum -p LPC1769 -d "LPCOpen_PWM-MotorBrushless.bin" ; arm-none-eabi-objcopy -I binary "LPCOpen_PWM-MotorBrushless.bin" -O ihex "LPCOpen_PWM-MotorBrushless.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6892	    132	    372	   7396	   1ce4	LPCOpen_PWM-MotorBrushless.axf
+copy from `LPCOpen_PWM-MotorBrushless.axf' [elf32-littlearm] to `LPCOpen_PWM-MotorBrushless.bin' [binary]
+Created checksum 0xefff74b2 at offset 0x1c in file LPCOpen_PWM-MotorBrushless.bin 
+17:11:02 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r all 
+make: Nothing to be done for `all'.
+17:11:02 **** Incremental Build of configuration Debug for project lpc_chip_175x_6x ****
+make -r all 
+make: Nothing to be done for `all'.
+17:11:05 **** Incremental Build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
+make -r all 
+make: Nothing to be done for `all'.
+17:11:15 **** Clean-only build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
+make -r clean 
+rm -rf  ./src/LPCOpen_PWM-MotorBrushless.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o  ./src/LPCOpen_PWM-MotorBrushless.d ./src/cr_startup_lpc175x_6x.d ./src/crp.d ./src/sysinit.d  LPCOpen_PWM-MotorBrushless.axf
+ 
+17:11:15 **** Clean-only build of configuration Debug for project LPCOpen_PWMx4-Motor ****
+make -r clean 
+rm -rf  ./src/LPCOpen_PWMx4-Motor.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o  ./src/LPCOpen_PWMx4-Motor.d ./src/cr_startup_lpc175x_6x.d ./src/crp.d ./src/sysinit.d  LPCOpen_PWMx4-Motor.axf
+ 
+17:11:15 **** Clean-only build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r clean 
+rm -rf  ./src/board.o ./src/board_sysinit.o ./src/lpc_phy_smsc87x0.o  ./src/board.d ./src/board_sysinit.d ./src/lpc_phy_smsc87x0.d  liblpc_board_nxp_lpcxpresso_1769.a
+ 
+17:11:15 **** Clean-only build of configuration Debug for project lpc_chip_175x_6x ****
+make -r clean 
+rm -rf  ./src/adc_17xx_40xx.o ./src/can_17xx_40xx.o ./src/chip_17xx_40xx.o ./src/clock_17xx_40xx.o ./src/cmp_17xx_40xx.o ./src/crc_17xx_40xx.o ./src/dac_17xx_40xx.o ./src/eeprom_17xx_40xx.o ./src/emc_17xx_40xx.o ./src/enet_17xx_40xx.o ./src/gpdma_17xx_40xx.o ./src/gpio_17xx_40xx.o ./src/gpioint_17xx_40xx.o ./src/i2c_17xx_40xx.o ./src/i2s_17xx_40xx.o ./src/iap.o ./src/iocon_17xx_40xx.o ./src/lcd_17xx_40xx.o ./src/pmu_17xx_40xx.o ./src/pwm_17xx_40xx.o ./src/ring_buffer.o ./src/ritimer_17xx_40xx.o ./src/rtc_17xx_40xx.o ./src/sdc_17xx_40xx.o ./src/sdmmc_17xx_40xx.o ./src/spi_17xx_40xx.o ./src/ssp_17xx_40xx.o ./src/stopwatch_17xx_40xx.o ./src/sysctl_17xx_40xx.o ./src/sysinit_17xx_40xx.o ./src/timer_17xx_40xx.o ./src/uart_17xx_40xx.o ./src/wwdt_17xx_40xx.o  ./src/adc_17xx_40xx.d ./src/can_17xx_40xx.d ./src/chip_17xx_40xx.d ./src/clock_17xx_40xx.d ./src/cmp_17xx_40xx.d ./src/crc_17xx_40xx.d ./src/dac_17xx_40xx.d ./src/eeprom_17xx_40xx.d ./src/emc_17xx_40xx.d ./src/enet_17xx_40xx.d ./src/gpdma_17xx_40xx.d ./src/gpio_17xx_40xx.d ./src/gpioint_17xx_40xx.d ./src/i2c_17xx_40xx.d ./src/i2s_17xx_40xx.d ./src/iap.d ./src/iocon_17xx_40xx.d ./src/lcd_17xx_40xx.d ./src/pmu_17xx_40xx.d ./src/pwm_17xx_40xx.d ./src/ring_buffer.d ./src/ritimer_17xx_40xx.d ./src/rtc_17xx_40xx.d ./src/sdc_17xx_40xx.d ./src/sdmmc_17xx_40xx.d ./src/spi_17xx_40xx.d ./src/ssp_17xx_40xx.d ./src/stopwatch_17xx_40xx.d ./src/sysctl_17xx_40xx.d ./src/sysinit_17xx_40xx.d ./src/timer_17xx_40xx.d ./src/uart_17xx_40xx.d ./src/wwdt_17xx_40xx.d  liblpc_chip_175x_6x.a
+ 
+17:11:16 **** Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r all 
+Building file: ../src/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/board.d" -MT"src/board.o" -MT"src/board.d" -o "src/board.o" "../src/board.c"
+../src/board.c: In function 'Board_I2C_Init':
+../src/board.c:267:2: warning: enumeration value 'I2C_NUM_INTERFACE' not handled in switch [-Wswitch]
+  switch (id) {
+  ^
+Finished building: ../src/board.c
+ 
+Building file: ../src/board_sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/board_sysinit.d" -MT"src/board_sysinit.o" -MT"src/board_sysinit.d" -o "src/board_sysinit.o" "../src/board_sysinit.c"
+Finished building: ../src/board_sysinit.c
+ 
+Building file: ../src/lpc_phy_smsc87x0.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/lpc_phy_smsc87x0.d" -MT"src/lpc_phy_smsc87x0.o" -MT"src/lpc_phy_smsc87x0.d" -o "src/lpc_phy_smsc87x0.o" "../src/lpc_phy_smsc87x0.c"
+Finished building: ../src/lpc_phy_smsc87x0.c
+ 
+Building target: liblpc_board_nxp_lpcxpresso_1769.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_board_nxp_lpcxpresso_1769.a"  ./src/board.o ./src/board_sysinit.o ./src/lpc_phy_smsc87x0.o   
+c:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating liblpc_board_nxp_lpcxpresso_1769.a
+Finished building target: liblpc_board_nxp_lpcxpresso_1769.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_board_nxp_lpcxpresso_1769.a" ; # arm-none-eabi-objdump -h -S "liblpc_board_nxp_lpcxpresso_1769.a" >"liblpc_board_nxp_lpcxpresso_1769.lss"
+   text	   data	    bss	    dec	    hex	filename
+   2208	      0	      0	   2208	    8a0	board.o (ex liblpc_board_nxp_lpcxpresso_1769.a)
+    196	      0	      0	    196	     c4	board_sysinit.o (ex liblpc_board_nxp_lpcxpresso_1769.a)
+    860	      0	     18	    878	    36e	lpc_phy_smsc87x0.o (ex liblpc_board_nxp_lpcxpresso_1769.a)
+ 
+17:11:17 **** Build of configuration Debug for project lpc_chip_175x_6x ****
+make -r all 
+Building file: ../src/adc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/adc_17xx_40xx.d" -MT"src/adc_17xx_40xx.o" -MT"src/adc_17xx_40xx.d" -o "src/adc_17xx_40xx.o" "../src/adc_17xx_40xx.c"
+Finished building: ../src/adc_17xx_40xx.c
+ 
+Building file: ../src/can_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/can_17xx_40xx.d" -MT"src/can_17xx_40xx.o" -MT"src/can_17xx_40xx.d" -o "src/can_17xx_40xx.o" "../src/can_17xx_40xx.c"
+../src/can_17xx_40xx.c: In function 'Chip_CAN_Init':
+../src/can_17xx_40xx.c:751:20: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t i;
+                    ^
+Finished building: ../src/can_17xx_40xx.c
+ 
+Building file: ../src/chip_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/chip_17xx_40xx.d" -MT"src/chip_17xx_40xx.o" -MT"src/chip_17xx_40xx.d" -o "src/chip_17xx_40xx.o" "../src/chip_17xx_40xx.c"
+Finished building: ../src/chip_17xx_40xx.c
+ 
+Building file: ../src/clock_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/clock_17xx_40xx.d" -MT"src/clock_17xx_40xx.o" -MT"src/clock_17xx_40xx.d" -o "src/clock_17xx_40xx.o" "../src/clock_17xx_40xx.c"
+../src/clock_17xx_40xx.c: In function 'Chip_Clock_GetSYSCLKRate':
+../src/clock_17xx_40xx.c:320:2: warning: enumeration value 'SYSCTL_PLLCLKSRC_RESERVED2' not handled in switch [-Wswitch]
+  switch (Chip_Clock_GetMainPLLSource()) {
+  ^
+Finished building: ../src/clock_17xx_40xx.c
+ 
+Building file: ../src/cmp_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cmp_17xx_40xx.d" -MT"src/cmp_17xx_40xx.o" -MT"src/cmp_17xx_40xx.d" -o "src/cmp_17xx_40xx.o" "../src/cmp_17xx_40xx.c"
+Finished building: ../src/cmp_17xx_40xx.c
+ 
+Building file: ../src/crc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crc_17xx_40xx.d" -MT"src/crc_17xx_40xx.o" -MT"src/crc_17xx_40xx.d" -o "src/crc_17xx_40xx.o" "../src/crc_17xx_40xx.c"
+Finished building: ../src/crc_17xx_40xx.c
+ 
+Building file: ../src/dac_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/dac_17xx_40xx.d" -MT"src/dac_17xx_40xx.o" -MT"src/dac_17xx_40xx.d" -o "src/dac_17xx_40xx.o" "../src/dac_17xx_40xx.c"
+Finished building: ../src/dac_17xx_40xx.c
+ 
+Building file: ../src/eeprom_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/eeprom_17xx_40xx.d" -MT"src/eeprom_17xx_40xx.o" -MT"src/eeprom_17xx_40xx.d" -o "src/eeprom_17xx_40xx.o" "../src/eeprom_17xx_40xx.c"
+Finished building: ../src/eeprom_17xx_40xx.c
+ 
+Building file: ../src/emc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/emc_17xx_40xx.d" -MT"src/emc_17xx_40xx.o" -MT"src/emc_17xx_40xx.d" -o "src/emc_17xx_40xx.o" "../src/emc_17xx_40xx.c"
+Finished building: ../src/emc_17xx_40xx.c
+ 
+Building file: ../src/enet_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/enet_17xx_40xx.d" -MT"src/enet_17xx_40xx.o" -MT"src/enet_17xx_40xx.d" -o "src/enet_17xx_40xx.o" "../src/enet_17xx_40xx.c"
+Finished building: ../src/enet_17xx_40xx.c
+ 
+Building file: ../src/gpdma_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/gpdma_17xx_40xx.d" -MT"src/gpdma_17xx_40xx.o" -MT"src/gpdma_17xx_40xx.d" -o "src/gpdma_17xx_40xx.o" "../src/gpdma_17xx_40xx.c"
+Finished building: ../src/gpdma_17xx_40xx.c
+ 
+Building file: ../src/gpio_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/gpio_17xx_40xx.d" -MT"src/gpio_17xx_40xx.o" -MT"src/gpio_17xx_40xx.d" -o "src/gpio_17xx_40xx.o" "../src/gpio_17xx_40xx.c"
+Finished building: ../src/gpio_17xx_40xx.c
+ 
+Building file: ../src/gpioint_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/gpioint_17xx_40xx.d" -MT"src/gpioint_17xx_40xx.o" -MT"src/gpioint_17xx_40xx.d" -o "src/gpioint_17xx_40xx.o" "../src/gpioint_17xx_40xx.c"
+Finished building: ../src/gpioint_17xx_40xx.c
+ 
+Building file: ../src/i2c_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/i2c_17xx_40xx.d" -MT"src/i2c_17xx_40xx.o" -MT"src/i2c_17xx_40xx.d" -o "src/i2c_17xx_40xx.o" "../src/i2c_17xx_40xx.c"
+Finished building: ../src/i2c_17xx_40xx.c
+ 
+Building file: ../src/i2s_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/i2s_17xx_40xx.d" -MT"src/i2s_17xx_40xx.o" -MT"src/i2s_17xx_40xx.d" -o "src/i2s_17xx_40xx.o" "../src/i2s_17xx_40xx.c"
+Finished building: ../src/i2s_17xx_40xx.c
+ 
+Building file: ../src/iap.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/iap.d" -MT"src/iap.o" -MT"src/iap.d" -o "src/iap.o" "../src/iap.c"
+Finished building: ../src/iap.c
+ 
+Building file: ../src/iocon_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/iocon_17xx_40xx.d" -MT"src/iocon_17xx_40xx.o" -MT"src/iocon_17xx_40xx.d" -o "src/iocon_17xx_40xx.o" "../src/iocon_17xx_40xx.c"
+Finished building: ../src/iocon_17xx_40xx.c
+ 
+Building file: ../src/lcd_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/lcd_17xx_40xx.d" -MT"src/lcd_17xx_40xx.o" -MT"src/lcd_17xx_40xx.d" -o "src/lcd_17xx_40xx.o" "../src/lcd_17xx_40xx.c"
+Finished building: ../src/lcd_17xx_40xx.c
+ 
+Building file: ../src/pmu_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/pmu_17xx_40xx.d" -MT"src/pmu_17xx_40xx.o" -MT"src/pmu_17xx_40xx.d" -o "src/pmu_17xx_40xx.o" "../src/pmu_17xx_40xx.c"
+Finished building: ../src/pmu_17xx_40xx.c
+ 
+Building file: ../src/pwm_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/pwm_17xx_40xx.d" -MT"src/pwm_17xx_40xx.o" -MT"src/pwm_17xx_40xx.d" -o "src/pwm_17xx_40xx.o" "../src/pwm_17xx_40xx.c"
+Finished building: ../src/pwm_17xx_40xx.c
+ 
+Building file: ../src/ring_buffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/ring_buffer.d" -MT"src/ring_buffer.o" -MT"src/ring_buffer.d" -o "src/ring_buffer.o" "../src/ring_buffer.c"
+Finished building: ../src/ring_buffer.c
+ 
+Building file: ../src/ritimer_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/ritimer_17xx_40xx.d" -MT"src/ritimer_17xx_40xx.o" -MT"src/ritimer_17xx_40xx.d" -o "src/ritimer_17xx_40xx.o" "../src/ritimer_17xx_40xx.c"
+Finished building: ../src/ritimer_17xx_40xx.c
+ 
+Building file: ../src/rtc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/rtc_17xx_40xx.d" -MT"src/rtc_17xx_40xx.o" -MT"src/rtc_17xx_40xx.d" -o "src/rtc_17xx_40xx.o" "../src/rtc_17xx_40xx.c"
+Finished building: ../src/rtc_17xx_40xx.c
+ 
+Building file: ../src/sdc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sdc_17xx_40xx.d" -MT"src/sdc_17xx_40xx.o" -MT"src/sdc_17xx_40xx.d" -o "src/sdc_17xx_40xx.o" "../src/sdc_17xx_40xx.c"
+Finished building: ../src/sdc_17xx_40xx.c
+ 
+Building file: ../src/sdmmc_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sdmmc_17xx_40xx.d" -MT"src/sdmmc_17xx_40xx.o" -MT"src/sdmmc_17xx_40xx.d" -o "src/sdmmc_17xx_40xx.o" "../src/sdmmc_17xx_40xx.c"
+Finished building: ../src/sdmmc_17xx_40xx.c
+ 
+Building file: ../src/spi_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/spi_17xx_40xx.d" -MT"src/spi_17xx_40xx.o" -MT"src/spi_17xx_40xx.d" -o "src/spi_17xx_40xx.o" "../src/spi_17xx_40xx.c"
+../src/spi_17xx_40xx.c: In function 'Chip_SPI_Int_FlushData':
+../src/spi_17xx_40xx.c:138:20: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t tmp;
+                    ^
+Finished building: ../src/spi_17xx_40xx.c
+ 
+Building file: ../src/ssp_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/ssp_17xx_40xx.d" -MT"src/ssp_17xx_40xx.o" -MT"src/ssp_17xx_40xx.d" -o "src/ssp_17xx_40xx.o" "../src/ssp_17xx_40xx.c"
+Finished building: ../src/ssp_17xx_40xx.c
+ 
+Building file: ../src/stopwatch_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/stopwatch_17xx_40xx.d" -MT"src/stopwatch_17xx_40xx.o" -MT"src/stopwatch_17xx_40xx.d" -o "src/stopwatch_17xx_40xx.o" "../src/stopwatch_17xx_40xx.c"
+Finished building: ../src/stopwatch_17xx_40xx.c
+ 
+Building file: ../src/sysctl_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysctl_17xx_40xx.d" -MT"src/sysctl_17xx_40xx.o" -MT"src/sysctl_17xx_40xx.d" -o "src/sysctl_17xx_40xx.o" "../src/sysctl_17xx_40xx.c"
+Finished building: ../src/sysctl_17xx_40xx.c
+ 
+Building file: ../src/sysinit_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysinit_17xx_40xx.d" -MT"src/sysinit_17xx_40xx.o" -MT"src/sysinit_17xx_40xx.d" -o "src/sysinit_17xx_40xx.o" "../src/sysinit_17xx_40xx.c"
+Finished building: ../src/sysinit_17xx_40xx.c
+ 
+Building file: ../src/timer_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/timer_17xx_40xx.d" -MT"src/timer_17xx_40xx.o" -MT"src/timer_17xx_40xx.d" -o "src/timer_17xx_40xx.o" "../src/timer_17xx_40xx.c"
+Finished building: ../src/timer_17xx_40xx.c
+ 
+Building file: ../src/uart_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/uart_17xx_40xx.d" -MT"src/uart_17xx_40xx.o" -MT"src/uart_17xx_40xx.d" -o "src/uart_17xx_40xx.o" "../src/uart_17xx_40xx.c"
+Finished building: ../src/uart_17xx_40xx.c
+ 
+Building file: ../src/wwdt_17xx_40xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/wwdt_17xx_40xx.d" -MT"src/wwdt_17xx_40xx.o" -MT"src/wwdt_17xx_40xx.d" -o "src/wwdt_17xx_40xx.o" "../src/wwdt_17xx_40xx.c"
+Finished building: ../src/wwdt_17xx_40xx.c
+ 
+Building target: liblpc_chip_175x_6x.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_chip_175x_6x.a"  ./src/adc_17xx_40xx.o ./src/can_17xx_40xx.o ./src/chip_17xx_40xx.o ./src/clock_17xx_40xx.o ./src/cmp_17xx_40xx.o ./src/crc_17xx_40xx.o ./src/dac_17xx_40xx.o ./src/eeprom_17xx_40xx.o ./src/emc_17xx_40xx.o ./src/enet_17xx_40xx.o ./src/gpdma_17xx_40xx.o ./src/gpio_17xx_40xx.o ./src/gpioint_17xx_40xx.o ./src/i2c_17xx_40xx.o ./src/i2s_17xx_40xx.o ./src/iap.o ./src/iocon_17xx_40xx.o ./src/lcd_17xx_40xx.o ./src/pmu_17xx_40xx.o ./src/pwm_17xx_40xx.o ./src/ring_buffer.o ./src/ritimer_17xx_40xx.o ./src/rtc_17xx_40xx.o ./src/sdc_17xx_40xx.o ./src/sdmmc_17xx_40xx.o ./src/spi_17xx_40xx.o ./src/ssp_17xx_40xx.o ./src/stopwatch_17xx_40xx.o ./src/sysctl_17xx_40xx.o ./src/sysinit_17xx_40xx.o ./src/timer_17xx_40xx.o ./src/uart_17xx_40xx.o ./src/wwdt_17xx_40xx.o   
+c:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating liblpc_chip_175x_6x.a
+Finished building target: liblpc_chip_175x_6x.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_chip_175x_6x.a" ; # arm-none-eabi-objdump -h -S "liblpc_chip_175x_6x.a" >"liblpc_chip_175x_6x.lss"
+   text	   data	    bss	    dec	    hex	filename
+    932	      0	      0	    932	    3a4	adc_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+   8692	      0	      0	   8692	   21f4	can_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    176	      0	      0	    176	     b0	chip_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+   1620	      0	      0	   1620	    654	clock_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	cmp_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	crc_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    144	      0	      0	    144	     90	dac_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	eeprom_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	emc_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+   1116	      0	      4	   1120	    460	enet_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+   2272	     96	      8	   2376	    948	gpdma_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	gpio_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	gpioint_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+   3680	     84	    120	   3884	    f2c	i2c_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+   1464	      0	      0	   1464	    5b8	i2s_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    556	      0	      0	    556	    22c	iap.o (ex liblpc_chip_175x_6x.a)
+    296	      0	      0	    296	    128	iocon_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	lcd_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    264	      0	      0	    264	    108	pmu_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    364	      0	      0	    364	    16c	pwm_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    980	      0	      0	    980	    3d4	ring_buffer.o (ex liblpc_chip_175x_6x.a)
+    240	      0	      0	    240	     f0	ritimer_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    748	      0	      0	    748	    2ec	rtc_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	sdc_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	sdmmc_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+   1044	      0	      0	   1044	    414	spi_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+   2288	      0	      0	   2288	    8f0	ssp_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    388	      0	     12	    400	    190	stopwatch_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+     48	      0	      0	     48	     30	sysctl_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    484	      0	      0	    484	    1e4	sysinit_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+    308	      0	      0	    308	    134	timer_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+   2304	      0	      1	   2305	    901	uart_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+     96	      0	      0	     96	     60	wwdt_17xx_40xx.o (ex liblpc_chip_175x_6x.a)
+ 
+17:11:27 **** Build of configuration Debug for project LPCOpen_PWMx4-Motor ****
+make -r all 
+Building file: ../src/LPCOpen_PWMx4-Motor.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/LPCOpen_PWMx4-Motor.d" -MT"src/LPCOpen_PWMx4-Motor.o" -MT"src/LPCOpen_PWMx4-Motor.d" -o "src/LPCOpen_PWMx4-Motor.o" "../src/LPCOpen_PWMx4-Motor.c"
+../src/LPCOpen_PWMx4-Motor.c: In function 'main':
+../src/LPCOpen_PWMx4-Motor.c:12:44: warning: variable 'Inertia' set but not used [-Wunused-but-set-variable]
+  uint8_t Giro = 0, Giro0 = 0, CloseLoop=0, Inertia=0xFF;
+                                            ^
+../src/LPCOpen_PWMx4-Motor.c: In function 'Zero_Detect':
+../src/LPCOpen_PWMx4-Motor.c:83:49: error: 'PORT_Z' undeclared (first use in this function)
+  CruceZero[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
+                                                 ^
+../src/LPCOpen_PWMx4-Motor.c:83:49: note: each undeclared identifier is reported only once for each function it appears in
+../src/LPCOpen_PWMx4-Motor.c:83:60: error: 'PIN_Z' undeclared (first use in this function)
+  CruceZero[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
+                                                            ^
+../src/LPCOpen_PWMx4-Motor.c: In function 'Stop_and_Default':
+../src/LPCOpen_PWMx4-Motor.c:109:35: error: 'PORT_Q1' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q1, PIN_Q1, 0);  //PMOS
+                                   ^
+../src/LPCOpen_PWMx4-Motor.c:109:44: error: 'PIN_Q1' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q1, PIN_Q1, 0);  //PMOS
+                                            ^
+../src/LPCOpen_PWMx4-Motor.c:110:35: error: 'PORT_Q2' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q2, PIN_Q2, 1);  //NMOS
+                                   ^
+../src/LPCOpen_PWMx4-Motor.c:110:44: error: 'PIN_Q2' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q2, PIN_Q2, 1);  //NMOS
+                                            ^
+../src/LPCOpen_PWMx4-Motor.c:111:35: error: 'PORT_Q3' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q3, PIN_Q3, 0);  //PMOS
+                                   ^
+../src/LPCOpen_PWMx4-Motor.c:111:44: error: 'PIN_Q3' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q3, PIN_Q3, 0);  //PMOS
+                                            ^
+../src/LPCOpen_PWMx4-Motor.c:112:35: error: 'PORT_Q4' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q4, PIN_Q4, 1);  //NMOS
+                                   ^
+../src/LPCOpen_PWMx4-Motor.c:112:44: error: 'PIN_Q4' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q4, PIN_Q4, 1);  //NMOS
+                                            ^
+../src/LPCOpen_PWMx4-Motor.c:113:35: error: 'PORT_Q5' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q5, PIN_Q5, 0);  //PMOS
+                                   ^
+../src/LPCOpen_PWMx4-Motor.c:113:44: error: 'PIN_Q5' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q5, PIN_Q5, 0);  //PMOS
+                                            ^
+../src/LPCOpen_PWMx4-Motor.c:114:35: error: 'PORT_Q0' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q0, PIN_Q0, 1);  //NMOS
+                                   ^
+../src/LPCOpen_PWMx4-Motor.c:114:44: error: 'PIN_Q0' undeclared (first use in this function)
+  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q0, PIN_Q0, 1);  //NMOS
+                                            ^
+../src/LPCOpen_PWMx4-Motor.c: At top level:
+../src/LPCOpen_PWMx4-Motor.c:164:6: error: conflicting types for 'NextPWM'
+ void NextPWM(uint8_t motor)
+      ^
+In file included from ../src/Initiations.h:8:0,
+                 from ../src/LPCOpen_PWMx4-Motor.c:7:
+../src/Defines.h:149:6: note: previous declaration of 'NextPWM' was here
+ void NextPWM(void);
+      ^
+../src/LPCOpen_PWMx4-Motor.c: In function 'NextPWM':
+../src/LPCOpen_PWMx4-Motor.c:170:47: error: subscripted value is neither array nor pointer nor vector
+   Chip_PWM_SetMatch(LPC_PWM1, motor, DutyCycle[motor]);
+                                               ^
+../src/LPCOpen_PWMx4-Motor.c:179:36: error: 'PORT_Qa' undeclared (first use in this function)
+   Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[motor], PIN_Qa[2], 0); //Apago Q4
+                                    ^
+../src/LPCOpen_PWMx4-Motor.c:179:52: error: 'PIN_Qa' undeclared (first use in this function)
+   Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[motor], PIN_Qa[2], 0); //Apago Q4
+                                                    ^
+../src/LPCOpen_PWMx4-Motor.c:183:36: error: 'PORT_Qb' undeclared (first use in this function)
+   Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[1], PIN_Qb[1], 1); //Apago Q3 inv
+                                    ^
+../src/LPCOpen_PWMx4-Motor.c:183:48: error: 'PIN_Qb' undeclared (first use in this function)
+   Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[1], PIN_Qb[1], 1); //Apago Q3 inv
+                                                ^
+../src/LPCOpen_PWMx4-Motor.c:203:12: error: subscripted value is neither array nor pointer nor vector
+  if (StepID[motor] > 4) //Si StepID es mayor a 4 reseteo variable StepID
+            ^
+../src/LPCOpen_PWMx4-Motor.c:214:50: error: 'PORT_Z' undeclared (first use in this function)
+  CruceZero0[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
+                                                  ^
+../src/LPCOpen_PWMx4-Motor.c:214:61: error: 'PIN_Z' undeclared (first use in this function)
+  CruceZero0[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
+                                                             ^
+make: *** [src/LPCOpen_PWMx4-Motor.o] Error 1
+17:11:31 **** Build of configuration Debug for project LPCOpen_PWM-MotorBrushless ****
+make -r all 
+Building file: ../src/LPCOpen_PWM-MotorBrushless.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/LPCOpen_PWM-MotorBrushless.d" -MT"src/LPCOpen_PWM-MotorBrushless.o" -MT"src/LPCOpen_PWM-MotorBrushless.d" -o "src/LPCOpen_PWM-MotorBrushless.o" "../src/LPCOpen_PWM-MotorBrushless.c"
+Finished building: ../src/LPCOpen_PWM-MotorBrushless.c
+ 
+Building file: ../src/cr_startup_lpc175x_6x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc175x_6x.d" -MT"src/cr_startup_lpc175x_6x.o" -MT"src/cr_startup_lpc175x_6x.d" -o "src/cr_startup_lpc175x_6x.o" "../src/cr_startup_lpc175x_6x.c"
+Finished building: ../src/cr_startup_lpc175x_6x.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Finished building: ../src/sysinit.c
+ 
+Building target: LPCOpen_PWM-MotorBrushless.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\Debug" -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug" -Xlinker -Map="LPCOpen_PWM-MotorBrushless.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "LPCOpen_PWM-MotorBrushless_Debug.ld" -o "LPCOpen_PWM-MotorBrushless.axf"  ./src/LPCOpen_PWM-MotorBrushless.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1769 -llpc_chip_175x_6x
+Finished building target: LPCOpen_PWM-MotorBrushless.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPCOpen_PWM-MotorBrushless.axf" ; arm-none-eabi-objcopy -v -O binary "LPCOpen_PWM-MotorBrushless.axf" "LPCOpen_PWM-MotorBrushless.bin" ; checksum -p LPC1769 -d "LPCOpen_PWM-MotorBrushless.bin" ; arm-none-eabi-objcopy -I binary "LPCOpen_PWM-MotorBrushless.bin" -O ihex "LPCOpen_PWM-MotorBrushless.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6892	    132	    372	   7396	   1ce4	LPCOpen_PWM-MotorBrushless.axf
 copy from `LPCOpen_PWM-MotorBrushless.axf' [elf32-littlearm] to `LPCOpen_PWM-MotorBrushless.bin' [binary]
 Created checksum 0xefff74b2 at offset 0x1c in file LPCOpen_PWM-MotorBrushless.bin 

@@ -32,7 +32,7 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
 					</resource>
-					<resource project-relative-path="src/LPCOpen_PWM-MotorBrushless.c">
+					<resource project-relative-path="src/crp.c">
 						<entry kind="includePath" name="/lpc_board_nxp_lpcxpresso_1769/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>
@@ -46,7 +46,7 @@
 						<entry kind="macro" name="__REDLIB__" value=""/>
 						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
 					</resource>
-					<resource project-relative-path="src/crp.c">
+					<resource project-relative-path="src/LPCOpen_PWM-MotorBrushless.c">
 						<entry kind="includePath" name="/lpc_board_nxp_lpcxpresso_1769/inc">
 							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
 						</entry>

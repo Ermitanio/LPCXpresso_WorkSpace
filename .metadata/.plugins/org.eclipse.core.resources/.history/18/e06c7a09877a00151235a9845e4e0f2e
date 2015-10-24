@@ -9,7 +9,7 @@
 // MAIN PROGRAM
 int main(void)
 {
-	uint8_t Giro = 0, Giro0 = 0, CloseLoop=0, Inertia=0xFF;
+	uint16_t Giro = 0, Giro0 = 0, CloseLoop=0, Inertia=0xFF;
 	//Init All
 	//-----------------------------------------------------------------------------------------------
 	Stop_and_Default();	//Condiciones iniciales
@@ -117,14 +117,12 @@ void Stop_and_Default(void)
 //ARRANQUE
 void Start_Up_Brushless(void)
 {
-	float r0, dr, dPwr, frac;
-	uint32_t t = 1;
+	uint32_t t = 1, dr, dPwr;
 
 	//Drive at const rate for a few cycles to make sure rotor is synched.
 	//-----------------------------------------------------------------------------------------------
 	Count = 0;
 	NextPWM();	//Siguiente conmutación
-	while (Match_Cnt < 25000);		//Delay de 1Seg para asegurar sincronizmo y arranque
 	while (Count < 3)				//Primeras 3 conmutaciones a período inicial (lentas) por sincronizmo
 	{
 		while (Match_Cnt < StepPeriod);	//Delay hasta sig conmutación
@@ -132,12 +130,10 @@ void Start_Up_Brushless(void)
 	}
 	//Set variables para ecuaciones de arranque
 	//-----------------------------------------------------------------------------------------------
-	dPwr = start.powerRange[1] - start.powerRange[0]; 	//Diferencia de Duty
-	r0 = 1.0 / start.periodRange[0];
-	dr = (1.0 / start.periodRange[1]) - r0;
+	dPwr = (start.powerRange[1] - start.powerRange[0])/start.duration; 	//Diferencia de Duty
+	dr = (start.periodRange[0] -start.periodRange[1])/start.duration;
 
-	Count = 0;
-	t = 1;
+	t = 0;
 	//Arranque del Motor	(Clock:25MHz, Divisor pwm:1, Ciclos pwm:1000, -> [1 Match_Cnt = 40 MicroSeg]
 	//-----------------------------------------------------------------------------------------------
 	while (StepPeriod > start.periodRange[1])
@@ -145,16 +141,12 @@ void Start_Up_Brushless(void)
 		while (Match_Cnt < StepPeriod);//Delay hasta la siguiente conmutación (bloqueante solo durante arranque)
 		NextPWM();						//Siguiente conmutación
 
-		frac = (float) (t / start.duration);//Fracción de decrecimiento del período
-		if (frac > 1)
-			frac = 1;
-		DutyCycle = start.powerRange[1] - frac * dPwr;//Incremento Duty de manera lineal desde powerRange0 a powerRange1
-		StepPeriod = (frac > 0.999) ? start.periodRange[1] : (long) (1.0 / (r0 + frac * dr));	//Disminuye período entre conmutaciones de manera exponencial decreciente
+		DutyCycle = start.powerRange[0] + t * dPwr;//Incremento Duty de manera lineal desde powerRange0 a powerRange1
+		StepPeriod =start.periodRange[0] - t * dr;	//Disminuye período entre conmutaciones de manera exponencial decreciente
 		t++;																					//desde periodRange0 hasta periodRange1
 	}
 
-	DutyCycle = 300;		// (75/500)-> 15% Duty
-	//DutyCycle = 0.5 * (start.powerRange[0] + start.powerRange[1]); // Reduce Duty al final del arranque
+	DutyCycle = 150;		// (150/1000)-> 15% Duty
 
 	Chip_PWM_SetMatch(LPC_PWM1, 5, DutyCycle);
 	Chip_PWM_Reset(LPC_PWM1);
@@ -165,38 +157,38 @@ void NextPWM(void)
 {
 	//Actualizar DutyCycle
 	//-----------------------------------------------------------------------------------------------
-	//if (DutyCycle != DutyCycle0)
-
+	if (DutyCycle != DutyCycle0)
+	{
 		Chip_PWM_SetMatch(LPC_PWM1, 5, DutyCycle);
 		Chip_PWM_Reset(LPC_PWM1);
-		//DutyCycle0 = DutyCycle;
-
+		DutyCycle0 = DutyCycle;
+	}
 	//Conmutaciones MOSfet
 	//-----------------------------------------------------------------------------------------------
 	switch (StepID)
 	{
 	case 0:
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[2], PIN_Qa[2], 0);	//Apago Q4
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[0], PIN_Qa[0], 1);	//Prendo Q0
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[2], PIN_Qb[2], 1);	//Apago Q4
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[0], PIN_Qb[0], 0);	//Prendo Q0
 		break;
 	case 1:
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[1], PIN_Qb[1], 1);	//Apago Q3 inv
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[1], PIN_Qa[1], 0);	//Apago Q3
 		Cycle = 2;													//Prendo Q5
 		break;
 	case 2:
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[0], PIN_Qa[0], 0);	//Apago Q0
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[1], PIN_Qa[1], 1);	//Prendo Q2
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[0], PIN_Qb[0], 1);	//Apago Q0
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[1], PIN_Qb[1], 0);	//Prendo Q2
 		break;
 	case 3:
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[2], PIN_Qb[2], 1);	//Apago Q5
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[2], PIN_Qa[2], 0);	//Apago Q5
 		Cycle = 0;													//Prendo Q1
 		break;
 	case 4:
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[1], PIN_Qa[1], 0);	//Apago Q2
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[2], PIN_Qa[2], 1);	//Prendo Q4
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[1], PIN_Qb[1], 1);	//Apago Q2
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[2], PIN_Qb[2], 0);	//Prendo Q4
 		break;
 	default:
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[0], PIN_Qb[0], 1);	//Apago Q1
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[0], PIN_Qa[0], 0);	//Apago Q1
 		Cycle = 1;													//Prendo Q3
 	}
 
@@ -227,7 +219,7 @@ void PWM1_IRQHandler(void)
 		Chip_PWM_ClearMatch(LPC_PWM1, 0);	//Limpio interrupción canal PWM 0
 
 		//PWM sobre transistores PMOS
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[Cycle], PIN_Qb[Cycle], 0);	//Encender (invertido por el tbj emisor común)
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[Cycle], PIN_Qa[Cycle], 1);	//Encender
 	}
 	//Interrupción Canal 5 -> DUTYCICLE
 	//-----------------------------------------------------------------------------------------------
@@ -236,6 +228,6 @@ void PWM1_IRQHandler(void)
 		Chip_PWM_ClearMatch(LPC_PWM1, 5);	//Limpio interrupción canal PWM 5
 
 		//PWM sobre transistores NMOS
-		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[Cycle], PIN_Qb[Cycle], 1);	//Apagar (invertido por el tbj emisor común)
+		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[Cycle], PIN_Qa[Cycle], 0);	//Apagar
 	}
 }
