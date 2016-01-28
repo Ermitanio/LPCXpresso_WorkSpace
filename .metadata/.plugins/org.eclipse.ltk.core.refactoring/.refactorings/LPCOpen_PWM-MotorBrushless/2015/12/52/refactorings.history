@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LPCOpen_PWM-MotorBrushless/inc/Defines.h&apos; to &apos;Initiations.h&apos;" description="Rename resource &apos;Defines.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc/Defines.h" name="Initiations.h" stamp="1451059812244" updateReferences="true"/>
+</session>

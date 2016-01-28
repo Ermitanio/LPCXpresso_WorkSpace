@@ -29,7 +29,7 @@ all: LPCOpen_PWM-MotorBrushless.axf
 LPCOpen_PWM-MotorBrushless.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\Debug" -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug" -Xlinker -Map="LPCOpen_PWM-MotorBrushless.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "LPCOpen_PWM-MotorBrushless_Debug.ld" -o "LPCOpen_PWM-MotorBrushless.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug" -Xlinker -Map="LPCOpen_PWM-MotorBrushless.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "LPCOpen_PWM-MotorBrushless_Debug.ld" -o "LPCOpen_PWM-MotorBrushless.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

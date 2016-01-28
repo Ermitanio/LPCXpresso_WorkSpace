@@ -1,0 +1,1346 @@
+Archive member included because of file (symbol)
+
+D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                              ./src/SPI_RF.o (Chip_Clock_EnablePeriphClock)
+D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                              ./src/SPI_RF.o (Chip_IOCON_PinMux)
+D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+                              ./src/SPI_RF.o (Chip_SSP_RWFrames_Blocking)
+D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                              ./src/sysinit.o (Chip_SystemInit)
+c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc175x_6x.o (__main)
+
+Allocating common symbols
+Common symbol       size              file
+
+addr_width          0x1               ./src/Prueba_RF.o
+dynamic_payloads_enabled
+                    0x1               ./src/Prueba_RF.o
+pipe0_reading_address
+                    0x5               ./src/Prueba_RF.o
+p_variant           0x1               ./src/Prueba_RF.o
+txRxDelay           0x4               ./src/Prueba_RF.o
+payload_size        0x1               ./src/Prueba_RF.o
+failureDetected     0x1               ./src/Prueba_RF.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/Prueba_RF.o
+ .text          0x00000000        0x0 ./src/Prueba_RF.o
+ .data          0x00000000        0x0 ./src/Prueba_RF.o
+ .bss           0x00000000        0x0 ./src/Prueba_RF.o
+ .rodata.child_pipe_enable
+                0x00000000        0x8 ./src/Prueba_RF.o
+ .rodata.child_pipe
+                0x00000000        0x8 ./src/Prueba_RF.o
+ .rodata.child_payload_size
+                0x00000000        0x8 ./src/Prueba_RF.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/RF24.o
+ .text          0x00000000        0x0 ./src/RF24.o
+ .data          0x00000000        0x0 ./src/RF24.o
+ .bss           0x00000000        0x0 ./src/RF24.o
+ .text.read_register
+                0x00000000       0x58 ./src/RF24.o
+ .text.write_payload
+                0x00000000       0x98 ./src/RF24.o
+ .text.RF24     0x00000000       0x40 ./src/RF24.o
+ .text.getChannel
+                0x00000000       0x10 ./src/RF24.o
+ .text.setPayloadSize
+                0x00000000       0x28 ./src/RF24.o
+ .text.getPayloadSize
+                0x00000000       0x18 ./src/RF24.o
+ .text.stopListening
+                0x00000000       0x1c ./src/RF24.o
+ .text.powerDown
+                0x00000000       0x2c ./src/RF24.o
+ .text.setAddressWidth
+                0x00000000       0x40 ./src/RF24.o
+ .text.toggle_features
+                0x00000000       0x1c ./src/RF24.o
+ .text.enableDynamicPayloads
+                0x00000000       0x3c ./src/RF24.o
+ .text.enableAckPayload
+                0x00000000       0x3c ./src/RF24.o
+ .text.enableDynamicAck
+                0x00000000       0x1c ./src/RF24.o
+ .text.writeAckPayload
+                0x00000000       0x5c ./src/RF24.o
+ .text.setAutoAck
+                0x00000000       0x28 ./src/RF24.o
+ .text.setAutoAck_pipe
+                0x00000000       0x50 ./src/RF24.o
+ .text.testCarrier
+                0x00000000       0x20 ./src/RF24.o
+ .text.testRPD  0x00000000       0x20 ./src/RF24.o
+ .text.getPALevel
+                0x00000000       0x18 ./src/RF24.o
+ .text.getDataRate
+                0x00000000       0x30 ./src/RF24.o
+ .text.getCRCLength
+                0x00000000       0x50 ./src/RF24.o
+ .text.disableCRC
+                0x00000000       0x24 ./src/RF24.o
+ .debug_macro   0x00000000      0x880 ./src/RF24.o
+ .debug_macro   0x00000000       0x10 ./src/RF24.o
+ .debug_macro   0x00000000      0x12d ./src/RF24.o
+ .debug_macro   0x00000000      0x5b2 ./src/RF24.o
+ .debug_macro   0x00000000       0x22 ./src/RF24.o
+ .debug_macro   0x00000000       0x7b ./src/RF24.o
+ .debug_macro   0x00000000       0x10 ./src/RF24.o
+ .debug_macro   0x00000000       0x2d ./src/RF24.o
+ .debug_macro   0x00000000       0x3a ./src/RF24.o
+ .debug_macro   0x00000000       0x2d ./src/RF24.o
+ .debug_macro   0x00000000      0xbb1 ./src/RF24.o
+ .debug_macro   0x00000000      0x233 ./src/RF24.o
+ .debug_macro   0x00000000       0x42 ./src/RF24.o
+ .debug_macro   0x00000000       0x52 ./src/RF24.o
+ .debug_macro   0x00000000       0x78 ./src/RF24.o
+ .debug_macro   0x00000000       0x82 ./src/RF24.o
+ .debug_macro   0x00000000      0x48c ./src/RF24.o
+ .debug_macro   0x00000000       0x34 ./src/RF24.o
+ .debug_macro   0x00000000      0x4c5 ./src/RF24.o
+ .debug_macro   0x00000000      0x1b7 ./src/RF24.o
+ .debug_macro   0x00000000       0x10 ./src/RF24.o
+ .debug_macro   0x00000000      0x21b ./src/RF24.o
+ .debug_macro   0x00000000      0x1b9 ./src/RF24.o
+ .debug_macro   0x00000000       0x58 ./src/RF24.o
+ .debug_macro   0x00000000       0x40 ./src/RF24.o
+ .debug_macro   0x00000000       0x22 ./src/RF24.o
+ .debug_macro   0x00000000      0x162 ./src/RF24.o
+ .debug_macro   0x00000000       0x94 ./src/RF24.o
+ .debug_macro   0x00000000       0xb8 ./src/RF24.o
+ .debug_macro   0x00000000       0x4c ./src/RF24.o
+ .debug_macro   0x00000000       0x16 ./src/RF24.o
+ .debug_macro   0x00000000      0x328 ./src/RF24.o
+ .debug_macro   0x00000000       0x49 ./src/RF24.o
+ .debug_macro   0x00000000       0x16 ./src/RF24.o
+ .debug_macro   0x00000000       0xca ./src/RF24.o
+ .debug_macro   0x00000000       0x18 ./src/RF24.o
+ .debug_macro   0x00000000      0x220 ./src/RF24.o
+ .debug_macro   0x00000000       0x1c ./src/RF24.o
+ .debug_macro   0x00000000       0x16 ./src/RF24.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/SPI_RF.o
+ .text          0x00000000        0x0 ./src/SPI_RF.o
+ .data          0x00000000        0x0 ./src/SPI_RF.o
+ .bss           0x00000000        0x0 ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x880 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x10 ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x12d ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x5b2 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x22 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x7b ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x10 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x2d ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x3a ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x2d ./src/SPI_RF.o
+ .debug_macro   0x00000000      0xbb1 ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x233 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x42 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x52 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x78 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x82 ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x48c ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x34 ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x4c5 ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x1b7 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x10 ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x21b ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x1b9 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x58 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x40 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x22 ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x162 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x94 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0xb8 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x4c ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x16 ./src/SPI_RF.o
+ .debug_macro   0x00000000      0x328 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x49 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x16 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0xca ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x18 ./src/SPI_RF.o
+ .debug_macro   0x00000000       0x1c ./src/SPI_RF.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00000000      0x880 ./src/cr_startup_lpc175x_6x.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x880 ./src/crp.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .text          0x00000000        0x0 ./src/sysinit.o
+ .data          0x00000000        0x0 ./src/sysinit.o
+ .bss           0x00000000        0x0 ./src/sysinit.o
+ .debug_macro   0x00000000      0x880 ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000      0x12d ./src/sysinit.o
+ .debug_macro   0x00000000      0x5b2 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000       0x7b ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000       0x2d ./src/sysinit.o
+ .debug_macro   0x00000000       0x3a ./src/sysinit.o
+ .debug_macro   0x00000000       0x2d ./src/sysinit.o
+ .debug_macro   0x00000000      0xbb1 ./src/sysinit.o
+ .debug_macro   0x00000000      0x233 ./src/sysinit.o
+ .debug_macro   0x00000000       0x42 ./src/sysinit.o
+ .debug_macro   0x00000000       0x52 ./src/sysinit.o
+ .debug_macro   0x00000000       0x78 ./src/sysinit.o
+ .debug_macro   0x00000000       0x82 ./src/sysinit.o
+ .debug_macro   0x00000000      0x48c ./src/sysinit.o
+ .debug_macro   0x00000000       0x34 ./src/sysinit.o
+ .debug_macro   0x00000000      0x4c5 ./src/sysinit.o
+ .debug_macro   0x00000000      0x1b7 ./src/sysinit.o
+ .debug_macro   0x00000000       0x10 ./src/sysinit.o
+ .debug_macro   0x00000000      0x21b ./src/sysinit.o
+ .debug_macro   0x00000000      0x1b9 ./src/sysinit.o
+ .debug_macro   0x00000000       0x58 ./src/sysinit.o
+ .debug_macro   0x00000000       0x40 ./src/sysinit.o
+ .debug_macro   0x00000000       0x22 ./src/sysinit.o
+ .debug_macro   0x00000000      0x162 ./src/sysinit.o
+ .debug_macro   0x00000000       0x94 ./src/sysinit.o
+ .debug_macro   0x00000000       0xb8 ./src/sysinit.o
+ .debug_macro   0x00000000       0x4c ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000      0x328 ./src/sysinit.o
+ .debug_macro   0x00000000       0x49 ./src/sysinit.o
+ .debug_macro   0x00000000       0x16 ./src/sysinit.o
+ .debug_macro   0x00000000       0xca ./src/sysinit.o
+ .debug_macro   0x00000000       0x18 ./src/sysinit.o
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text          0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .data          0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .bss           0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_IsUSBPLLEnabled
+                0x00000000       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_IsUSBPLLConnected
+                0x00000000       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetUSBPLLInClockRate
+                0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00000000       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_IsPeripheralClockEnabled
+                0x00000000       0x3c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_SetCPUClockSource
+                0x00000000       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_SetUSBClockDiv
+                0x00000000       0x30 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetUSBClockDiv
+                0x00000000       0x20 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_SetPCLKDiv
+                0x00000000       0x64 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_SetCLKOUTSource
+                0x00000000       0x44 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetUSBPLLOutClockRate
+                0x00000000       0x40 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetUSBClockRate
+                0x00000000       0x38 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x233 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x58 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .text          0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .data          0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .bss           0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .text.Chip_IOCON_PinMuxSet
+                0x00000000       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .text.Chip_IOCON_SetPinMuxing
+                0x00000000       0x60 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x874 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x233 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x58 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text          0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .data          0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .bss           0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_Disable
+                0x00000000       0x20 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_SetFormat
+                0x00000000       0x30 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_Set_Mode
+                0x00000000       0x24 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_GetClockIndex
+                0x00000000       0x2c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_WriteFrames_Blocking
+                0x00000000      0x138 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_ReadFrames_Blocking
+                0x00000000      0x148 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_Int_FlushData
+                0x00000000       0x4c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_Int_RWFrames8Bits
+                0x00000000       0x88 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_Int_RWFrames16Bits
+                0x00000000       0x88 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_SetMaster
+                0x00000000       0x2c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_Init
+                0x00000000       0x3c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_DeInit
+                0x00000000       0x24 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x874 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x233 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x58 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text          0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .data          0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .bss           0x00000000        0x0 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_EnableCrystal
+                0x00000000       0x20 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_IsCrystalEnabled
+                0x00000000       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_SetupXtalClocking
+                0x00000000       0x90 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x874 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x233 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x58 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/Prueba_RF.o
+LOAD ./src/RF24.o
+LOAD ./src/SPI_RF.o
+LOAD ./src/cr_startup_lpc175x_6x.o
+LOAD ./src/crp.o
+LOAD ./src/sysinit.o
+LOAD D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000     0x1724
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x1724 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x0 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x1724 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000000 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x14 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x144 ./src/cr_startup_lpc175x_6x.o
+                0x000000f4                data_init
+                0x00000138                bss_init
+                0x00000170                ResetISR
+                0x000001e8                NMI_Handler
+                0x000001f0                HardFault_Handler
+                0x000001f8                MemManage_Handler
+                0x00000200                BusFault_Handler
+                0x00000208                UsageFault_Handler
+                0x00000210                SVC_Handler
+                0x00000218                DebugMon_Handler
+                0x00000220                PendSV_Handler
+                0x00000228                SysTick_Handler
+                0x00000230                EINT3_IRQHandler
+                0x00000230                CANActivity_IRQHandler
+                0x00000230                TIMER3_IRQHandler
+                0x00000230                UART0_IRQHandler
+                0x00000230                UART1_IRQHandler
+                0x00000230                EINT2_IRQHandler
+                0x00000230                USBActivity_IRQHandler
+                0x00000230                IntDefaultHandler
+                0x00000230                PLL0_IRQHandler
+                0x00000230                CAN_IRQHandler
+                0x00000230                I2C1_IRQHandler
+                0x00000230                SSP0_IRQHandler
+                0x00000230                I2S_IRQHandler
+                0x00000230                I2C2_IRQHandler
+                0x00000230                RTC_IRQHandler
+                0x00000230                TIMER0_IRQHandler
+                0x00000230                SPI_IRQHandler
+                0x00000230                RIT_IRQHandler
+                0x00000230                EINT1_IRQHandler
+                0x00000230                TIMER1_IRQHandler
+                0x00000230                UART2_IRQHandler
+                0x00000230                ADC_IRQHandler
+                0x00000230                SSP1_IRQHandler
+                0x00000230                USB_IRQHandler
+                0x00000230                BOD_IRQHandler
+                0x00000230                I2C0_IRQHandler
+                0x00000230                WDT_IRQHandler
+                0x00000230                PWM1_IRQHandler
+                0x00000230                QEI_IRQHandler
+                0x00000230                EINT0_IRQHandler
+                0x00000230                ETH_IRQHandler
+                0x00000230                PLL1_IRQHandler
+                0x00000230                DMA_IRQHandler
+                0x00000230                TIMER2_IRQHandler
+                0x00000230                UART3_IRQHandler
+                0x00000230                MCPWM_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000238       0xc4 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.Chip_GPIO_SetPinOutHigh
+                0x00000300       0x2c ./src/Prueba_RF.o
+ .text.Chip_GPIO_SetPinOutLow
+                0x0000032c       0x2c ./src/Prueba_RF.o
+ .text.main     0x00000358       0xf4 ./src/Prueba_RF.o
+                0x00000358                main
+ .text.Chip_GPIO_SetPinOutHigh
+                0x0000044c       0x2c ./src/RF24.o
+ .text.Chip_GPIO_SetPinOutLow
+                0x00000478       0x2c ./src/RF24.o
+ .text.beginTransaction
+                0x000004a4       0x14 ./src/RF24.o
+                0x000004a4                beginTransaction
+ .text.endTransaction
+                0x000004b8       0x14 ./src/RF24.o
+                0x000004b8                endTransaction
+ .text.read_register_byte
+                0x000004cc       0x34 ./src/RF24.o
+                0x000004cc                read_register_byte
+ .text.write_register
+                0x00000500       0x58 ./src/RF24.o
+                0x00000500                write_register
+ .text.write_register_byte
+                0x00000558       0x44 ./src/RF24.o
+                0x00000558                write_register_byte
+ .text.read_payload
+                0x0000059c       0x98 ./src/RF24.o
+                0x0000059c                read_payload
+ .text.flush_rx
+                0x00000634       0x10 ./src/RF24.o
+                0x00000634                flush_rx
+ .text.flush_tx
+                0x00000644       0x10 ./src/RF24.o
+                0x00000644                flush_tx
+ .text.spiTrans
+                0x00000654       0x28 ./src/RF24.o
+                0x00000654                spiTrans
+ .text.get_status
+                0x0000067c       0x10 ./src/RF24.o
+                0x0000067c                get_status
+ .text.setChannel
+                0x0000068c       0x28 ./src/RF24.o
+                0x0000068c                setChannel
+ .text.begin    0x000006b4       0xd0 ./src/RF24.o
+                0x000006b4                begin
+ .text.startListening
+                0x00000784       0x38 ./src/RF24.o
+                0x00000784                startListening
+ .text.powerUp  0x000007bc       0x38 ./src/RF24.o
+                0x000007bc                powerUp
+ .text.available
+                0x000007f4       0x10 ./src/RF24.o
+                0x000007f4                available
+ .text.available_pipe
+                0x00000804       0x44 ./src/RF24.o
+                0x00000804                available_pipe
+ .text.read     0x00000848       0x24 ./src/RF24.o
+                0x00000848                read
+ .text.openWritingPipe
+                0x0000086c       0x40 ./src/RF24.o
+                0x0000086c                openWritingPipe
+ .text.openReadingPipe
+                0x000008ac       0x88 ./src/RF24.o
+                0x000008ac                openReadingPipe
+ .text.setPALevel
+                0x00000934       0x70 ./src/RF24.o
+                0x00000934                setPALevel
+ .text.setDataRate
+                0x000009a4       0x58 ./src/RF24.o
+                0x000009a4                setDataRate
+ .text.setCRCLength
+                0x000009fc       0x50 ./src/RF24.o
+                0x000009fc                setCRCLength
+ .text.Chip_IOCON_DisableOD
+                0x00000a4c       0x3c ./src/SPI_RF.o
+ .text.Chip_GPIO_SetPinDIROutput
+                0x00000a88       0x38 ./src/SPI_RF.o
+ .text.Chip_GPIO_SetPinDIRInput
+                0x00000ac0       0x3c ./src/SPI_RF.o
+ .text.Chip_GPIO_SetPinDIR
+                0x00000afc       0x44 ./src/SPI_RF.o
+ .text.Chip_GPIO_WriteDirBit
+                0x00000b40       0x2c ./src/SPI_RF.o
+ .text.Chip_GPIO_SetPinOutHigh
+                0x00000b6c       0x2c ./src/SPI_RF.o
+ .text.Chip_GPIO_SetPinOutLow
+                0x00000b98       0x2c ./src/SPI_RF.o
+ .text.Chip_SSP_Enable
+                0x00000bc4       0x20 ./src/SPI_RF.o
+ .text.Chip_SSP_SetFormat
+                0x00000be4       0x30 ./src/SPI_RF.o
+ .text.Chip_SSP_Set_Mode
+                0x00000c14       0x24 ./src/SPI_RF.o
+ .text.InitHardware
+                0x00000c38       0x38 ./src/SPI_RF.o
+                0x00000c38                InitHardware
+ .text.InitSPI  0x00000c70       0xa0 ./src/SPI_RF.o
+                0x00000c70                InitSPI
+ .text.SPI_ReadWrite
+                0x00000d10       0x48 ./src/SPI_RF.o
+                0x00000d10                SPI_ReadWrite
+ .text.SystemInit
+                0x00000d58       0x24 ./src/sysinit.o
+                0x00000d58                SystemInit
+ .text.Chip_Clock_IsMainPLLEnabled
+                0x00000d7c       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_IsMainPLLConnected
+                0x00000da4       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_FeedPLL
+                0x00000dcc       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetMainPLLSource
+                0x00000e00       0x20 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetMainOscRate
+                0x00000e20       0x18 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetIntOscRate
+                0x00000e38       0x14 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetRTCOscRate
+                0x00000e4c       0x18 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetMainPLLInClockRate
+                0x00000e64       0x10 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_EnablePLL
+                0x00000e74       0x44 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000e74                Chip_Clock_EnablePLL
+ .text.Chip_Clock_DisablePLL
+                0x00000eb8       0x44 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000eb8                Chip_Clock_DisablePLL
+ .text.Chip_Clock_SetupPLL
+                0x00000efc       0x58 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000efc                Chip_Clock_SetupPLL
+ .text.Chip_Clock_EnablePeriphClock
+                0x00000f54       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000f54                Chip_Clock_EnablePeriphClock
+ .text.Chip_Clock_GetCPUClockSource
+                0x00000f88       0x24 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000f88                Chip_Clock_GetCPUClockSource
+ .text.Chip_Clock_SetCPUClockDiv
+                0x00000fac       0x20 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000fac                Chip_Clock_SetCPUClockDiv
+ .text.Chip_Clock_GetCPUClockDiv
+                0x00000fcc       0x1c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000fcc                Chip_Clock_GetCPUClockDiv
+ .text.Chip_Clock_GetPCLKDiv
+                0x00000fe8       0x90 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000fe8                Chip_Clock_GetPCLKDiv
+ .text.Chip_Clock_GetSYSCLKRate
+                0x00001078       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001078                Chip_Clock_GetSYSCLKRate
+ .text.Chip_Clock_GetMainPLLOutClockRate
+                0x000010ac       0x54 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000010ac                Chip_Clock_GetMainPLLOutClockRate
+ .text.Chip_Clock_GetMainClockRate
+                0x00001100       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001100                Chip_Clock_GetMainClockRate
+ .text.Chip_Clock_GetSystemClockRate
+                0x00001128       0x18 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001128                Chip_Clock_GetSystemClockRate
+ .text.Chip_Clock_GetPeripheralClockRate
+                0x00001140       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001140                Chip_Clock_GetPeripheralClockRate
+ .text.Chip_IOCON_PinMux
+                0x00001168       0x94 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00001168                Chip_IOCON_PinMux
+ .text.Chip_SSP_GetStatus
+                0x000011fc       0x2c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_GetRawIntStatus
+                0x00001228       0x2c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_GetDataSize
+                0x00001254       0x20 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_ClearIntPending
+                0x00001274       0x1c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_ReceiveFrame
+                0x00001290       0x1c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_SendFrame
+                0x000012ac       0x1c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.SSP_Write2BFifo
+                0x000012c8       0x44 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.SSP_Write1BFifo
+                0x0000130c       0x44 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.SSP_Read2BFifo
+                0x00001350       0x5c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+                0x00001350                SSP_Read2BFifo
+ .text.SSP_Read1BFifo
+                0x000013ac       0x5c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+                0x000013ac                SSP_Read1BFifo
+ .text.Chip_SSP_GetClkIndex
+                0x00001408       0x2c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .text.Chip_SSP_SetClockRate
+                0x00001434       0x34 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+                0x00001434                Chip_SSP_SetClockRate
+ .text.Chip_SSP_RWFrames_Blocking
+                0x00001468      0x108 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+                0x00001468                Chip_SSP_RWFrames_Blocking
+ .text.Chip_SSP_SetBitRate
+                0x00001570       0x74 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+                0x00001570                Chip_SSP_SetBitRate
+ .text.Chip_Clock_IsMainPLLEnabled
+                0x000015e4       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_IsMainPLLLocked
+                0x0000160c       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_IsMainPLLConnected
+                0x00001634       0x28 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_SetMainPLLSource
+                0x0000165c       0x20 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_SetupIrcClocking
+                0x0000167c       0x68 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x0000167c                Chip_SetupIrcClocking
+ .text.Chip_SystemInit
+                0x000016e4        0xc D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x000016e4                Chip_SystemInit
+ .text.__weak_main
+                0x000016f0        0x4 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x000016f0                __weak_main
+                0x000016f0                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata        0x000016f4       0x10 ./src/Prueba_RF.o
+ .rodata.child_pipe_enable
+                0x00001704        0x8 ./src/RF24.o
+ .rodata.child_pipe
+                0x0000170c        0x8 ./src/RF24.o
+ .rodata.child_payload_size
+                0x00001714        0x8 ./src/RF24.o
+ .rodata.OscRateIn
+                0x0000171c        0x4 ./src/sysinit.o
+                0x0000171c                OscRateIn
+ .rodata.RTCOscRateIn
+                0x00001720        0x4 ./src/sysinit.o
+                0x00001720                RTCOscRateIn
+                0x00001724                . = ALIGN (0x4)
+
+.glue_7         0x00001724        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00001724        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00001724        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00001724        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00001724        0x0
+ .iplt          0x00000000        0x0 ./src/Prueba_RF.o
+
+.rel.dyn        0x00001724        0x0
+ .rel.iplt      0x00000000        0x0 ./src/Prueba_RF.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00001724                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00001724                __exidx_end = .
+                0x00001724                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00001724
+ FILL mask 0xff
+                0x2007c000                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x00001724
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x00001724
+ .igot.plt      0x00000000        0x0 ./src/Prueba_RF.o
+
+.bss_RAM2       0x2007c000        0x0
+                0x2007c000                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                0x2007c000                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000000       0x14
+                0x10000000                _bss = .
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x10000000       0x12 ./src/Prueba_RF.o
+                0x10000000                addr_width
+                0x10000001                dynamic_payloads_enabled
+                0x10000004                pipe0_reading_address
+                0x10000009                p_variant
+                0x1000000c                txRxDelay
+                0x10000010                payload_size
+                0x10000011                failureDetected
+                0x10000014                . = ALIGN (0x4)
+ *fill*         0x10000012        0x2 
+                0x10000014                _ebss = .
+                0x10000014                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10000014        0x0
+                0x10000014                _noinit = .
+ *(.noinit*)
+                0x10000014                . = ALIGN (0x4)
+                0x10000014                _end_noinit = .
+                0x10000014                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+OUTPUT(Prueba_RF.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x38c8
+ .debug_info    0x00000000      0x3ea ./src/Prueba_RF.o
+ .debug_info    0x000003ea      0xb26 ./src/RF24.o
+ .debug_info    0x00000f10      0x762 ./src/SPI_RF.o
+ .debug_info    0x00001672      0x24b ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x000018bd       0x3f ./src/crp.o
+ .debug_info    0x000018fc      0x1b1 ./src/sysinit.o
+ .debug_info    0x00001aad      0xb46 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_info    0x000025f3      0x2d9 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_info    0x000028cc      0xbcb D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_info    0x00003497      0x431 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+
+.debug_abbrev   0x00000000      0xf98
+ .debug_abbrev  0x00000000      0x158 ./src/Prueba_RF.o
+ .debug_abbrev  0x00000158      0x2a7 ./src/RF24.o
+ .debug_abbrev  0x000003ff      0x1bf ./src/SPI_RF.o
+ .debug_abbrev  0x000005be       0xf5 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x000006b3       0x36 ./src/crp.o
+ .debug_abbrev  0x000006e9       0xca ./src/sysinit.o
+ .debug_abbrev  0x000007b3      0x2e4 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_abbrev  0x00000a97      0x126 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_abbrev  0x00000bbd      0x26a D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_abbrev  0x00000e27      0x171 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+
+.debug_aranges  0x00000000      0x588
+ .debug_aranges
+                0x00000000       0x30 ./src/Prueba_RF.o
+ .debug_aranges
+                0x00000030      0x188 ./src/RF24.o
+ .debug_aranges
+                0x000001b8       0x80 ./src/SPI_RF.o
+ .debug_aranges
+                0x00000238       0x80 ./src/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x000002b8       0x18 ./src/crp.o
+ .debug_aranges
+                0x000002d0       0x20 ./src/sysinit.o
+ .debug_aranges
+                0x000002f0      0x120 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_aranges
+                0x00000410       0x30 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_aranges
+                0x00000440       0xe8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_aranges
+                0x00000528       0x60 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+
+.debug_ranges   0x00000000      0x4e0
+ .debug_ranges  0x00000000       0x20 ./src/Prueba_RF.o
+ .debug_ranges  0x00000020      0x178 ./src/RF24.o
+ .debug_ranges  0x00000198       0x70 ./src/SPI_RF.o
+ .debug_ranges  0x00000208       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000278       0x10 ./src/sysinit.o
+ .debug_ranges  0x00000288      0x110 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_ranges  0x00000398       0x20 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_ranges  0x000003b8       0xd8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_ranges  0x00000490       0x50 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+
+.debug_macro    0x00000000     0x5219
+ .debug_macro   0x00000000      0x212 ./src/Prueba_RF.o
+ .debug_macro   0x00000212      0x880 ./src/Prueba_RF.o
+ .debug_macro   0x00000a92       0x10 ./src/Prueba_RF.o
+ .debug_macro   0x00000aa2      0x12d ./src/Prueba_RF.o
+ .debug_macro   0x00000bcf      0x5b2 ./src/Prueba_RF.o
+ .debug_macro   0x00001181       0x22 ./src/Prueba_RF.o
+ .debug_macro   0x000011a3       0x7b ./src/Prueba_RF.o
+ .debug_macro   0x0000121e       0x10 ./src/Prueba_RF.o
+ .debug_macro   0x0000122e       0x2d ./src/Prueba_RF.o
+ .debug_macro   0x0000125b       0x3a ./src/Prueba_RF.o
+ .debug_macro   0x00001295       0x2d ./src/Prueba_RF.o
+ .debug_macro   0x000012c2      0xbb1 ./src/Prueba_RF.o
+ .debug_macro   0x00001e73      0x233 ./src/Prueba_RF.o
+ .debug_macro   0x000020a6       0x42 ./src/Prueba_RF.o
+ .debug_macro   0x000020e8       0x52 ./src/Prueba_RF.o
+ .debug_macro   0x0000213a       0x78 ./src/Prueba_RF.o
+ .debug_macro   0x000021b2       0x82 ./src/Prueba_RF.o
+ .debug_macro   0x00002234      0x48c ./src/Prueba_RF.o
+ .debug_macro   0x000026c0       0x34 ./src/Prueba_RF.o
+ .debug_macro   0x000026f4      0x4c5 ./src/Prueba_RF.o
+ .debug_macro   0x00002bb9      0x1b7 ./src/Prueba_RF.o
+ .debug_macro   0x00002d70       0x10 ./src/Prueba_RF.o
+ .debug_macro   0x00002d80      0x21b ./src/Prueba_RF.o
+ .debug_macro   0x00002f9b      0x1b9 ./src/Prueba_RF.o
+ .debug_macro   0x00003154       0x58 ./src/Prueba_RF.o
+ .debug_macro   0x000031ac       0x40 ./src/Prueba_RF.o
+ .debug_macro   0x000031ec       0x22 ./src/Prueba_RF.o
+ .debug_macro   0x0000320e      0x162 ./src/Prueba_RF.o
+ .debug_macro   0x00003370       0x94 ./src/Prueba_RF.o
+ .debug_macro   0x00003404       0xb8 ./src/Prueba_RF.o
+ .debug_macro   0x000034bc       0x4c ./src/Prueba_RF.o
+ .debug_macro   0x00003508       0x16 ./src/Prueba_RF.o
+ .debug_macro   0x0000351e      0x328 ./src/Prueba_RF.o
+ .debug_macro   0x00003846       0x49 ./src/Prueba_RF.o
+ .debug_macro   0x0000388f       0x16 ./src/Prueba_RF.o
+ .debug_macro   0x000038a5       0xca ./src/Prueba_RF.o
+ .debug_macro   0x0000396f       0x18 ./src/Prueba_RF.o
+ .debug_macro   0x00003987       0x1c ./src/Prueba_RF.o
+ .debug_macro   0x000039a3      0x220 ./src/Prueba_RF.o
+ .debug_macro   0x00003bc3       0x16 ./src/Prueba_RF.o
+ .debug_macro   0x00003bd9      0x20e ./src/RF24.o
+ .debug_macro   0x00003de7      0x1ee ./src/SPI_RF.o
+ .debug_macro   0x00003fd5       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00003ff2       0x1a ./src/crp.o
+ .debug_macro   0x0000400c       0x34 ./src/crp.o
+ .debug_macro   0x00004040      0x1e1 ./src/sysinit.o
+ .debug_macro   0x00004221      0x1e1 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00004402      0x874 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00004c76      0x1e1 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00004e57      0x1e1 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_macro   0x00005038      0x1e1 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+
+.debug_line     0x00000000     0x2e28
+ .debug_line    0x00000000      0x458 ./src/Prueba_RF.o
+ .debug_line    0x00000458      0x871 ./src/RF24.o
+ .debug_line    0x00000cc9      0x506 ./src/SPI_RF.o
+ .debug_line    0x000011cf       0xd5 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x000012a4       0x78 ./src/crp.o
+ .debug_line    0x0000131c      0x3fe ./src/sysinit.o
+ .debug_line    0x0000171a      0x6c5 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_line    0x00001ddf      0x43a D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_line    0x00002219      0x74b D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_line    0x00002964      0x4c4 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+
+.debug_str      0x00000000    0x12991
+ .debug_str     0x00000000    0x10ea2 ./src/Prueba_RF.o
+                              0x10fc2 (size before relaxing)
+ .debug_str     0x00010ea2      0x326 ./src/RF24.o
+                              0x112d3 (size before relaxing)
+ .debug_str     0x000111c8      0x5f9 ./src/SPI_RF.o
+                              0x10e0a (size before relaxing)
+ .debug_str     0x000117c1      0x1c2 ./src/cr_startup_lpc175x_6x.o
+                               0x2645 (size before relaxing)
+ .debug_str     0x00011983       0xe9 ./src/crp.o
+                               0x255d (size before relaxing)
+ .debug_str     0x00011a6c       0x1b ./src/sysinit.o
+                              0x10946 (size before relaxing)
+ .debug_str     0x00011a87      0x9b1 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                              0x113d3 (size before relaxing)
+ .debug_str     0x00012438       0x98 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                              0x10850 (size before relaxing)
+ .debug_str     0x000124d0      0x3fd D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+                              0x112d1 (size before relaxing)
+ .debug_str     0x000128cd       0xc4 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                              0x10a38 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/Prueba_RF.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/RF24.o
+ .comment       0x00000000       0x71 ./src/SPI_RF.o
+ .comment       0x00000000       0x71 ./src/cr_startup_lpc175x_6x.o
+ .comment       0x00000000       0x71 ./src/crp.o
+ .comment       0x00000000       0x71 ./src/sysinit.o
+ .comment       0x00000000       0x71 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .comment       0x00000000       0x71 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .comment       0x00000000       0x71 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .comment       0x00000000       0x71 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./src/Prueba_RF.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/RF24.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/SPI_RF.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/crp.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src/sysinit.o
+ .ARM.attributes
+                0x00000132       0x33 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .ARM.attributes
+                0x00000165       0x33 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .ARM.attributes
+                0x00000198       0x33 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .ARM.attributes
+                0x000001cb       0x33 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .ARM.attributes
+                0x000001fe       0x33 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000     0x1450
+ .debug_frame   0x00000000       0x80 ./src/Prueba_RF.o
+ .debug_frame   0x00000080      0x604 ./src/RF24.o
+ .debug_frame   0x00000684      0x1fc ./src/SPI_RF.o
+ .debug_frame   0x00000880      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x000009f0       0x34 ./src/sysinit.o
+ .debug_frame   0x00000a24      0x490 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_frame   0x00000eb4       0x88 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_frame   0x00000f3c      0x3e8 D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(ssp_17xx_40xx.o)
+ .debug_frame   0x00001324      0x12c D:\WorkSpace - QuadCopter\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)

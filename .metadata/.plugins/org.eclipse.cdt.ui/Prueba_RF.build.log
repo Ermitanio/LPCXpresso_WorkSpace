@@ -1,0 +1,13 @@
+14:46:24 **** Build of configuration Debug for project Prueba_RF ****
+make -r all 
+Building file: ../src/Prueba_RF.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Prueba_RF.d" -MT"src/Prueba_RF.o" -MT"src/Prueba_RF.d" -o "src/Prueba_RF.o" "../src/Prueba_RF.c"
+../src/Prueba_RF.c:5:20: fatal error: SPI_RF.h: No such file or directory
+ #include "SPI_RF.h"
+                    ^
+compilation terminated.
+make: *** [src/Prueba_RF.o] Error 1
+
+14:46:24 Build Finished (took 296ms)
+

@@ -1,92 +1,37 @@
-17:11:27 **** Build of configuration Debug for project LPCOpen_PWMx4-Motor ****
+14:46:31 **** Build of configuration Debug for project LPCOpen_PWMx4-Motor ****
 make -r all 
 Building file: ../src/LPCOpen_PWMx4-Motor.c
 Invoking: MCU C Compiler
 arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/LPCOpen_PWMx4-Motor.d" -MT"src/LPCOpen_PWMx4-Motor.o" -MT"src/LPCOpen_PWMx4-Motor.d" -o "src/LPCOpen_PWMx4-Motor.o" "../src/LPCOpen_PWMx4-Motor.c"
-../src/LPCOpen_PWMx4-Motor.c: In function 'main':
-../src/LPCOpen_PWMx4-Motor.c:12:44: warning: variable 'Inertia' set but not used [-Wunused-but-set-variable]
-  uint8_t Giro = 0, Giro0 = 0, CloseLoop=0, Inertia=0xFF;
-                                            ^
-../src/LPCOpen_PWMx4-Motor.c: In function 'Zero_Detect':
-../src/LPCOpen_PWMx4-Motor.c:83:49: error: 'PORT_Z' undeclared (first use in this function)
-  CruceZero[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
-                                                 ^
-../src/LPCOpen_PWMx4-Motor.c:83:49: note: each undeclared identifier is reported only once for each function it appears in
-../src/LPCOpen_PWMx4-Motor.c:83:60: error: 'PIN_Z' undeclared (first use in this function)
-  CruceZero[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
-                                                            ^
-../src/LPCOpen_PWMx4-Motor.c: In function 'Stop_and_Default':
-../src/LPCOpen_PWMx4-Motor.c:109:35: error: 'PORT_Q1' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q1, PIN_Q1, 0);  //PMOS
-                                   ^
-../src/LPCOpen_PWMx4-Motor.c:109:44: error: 'PIN_Q1' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q1, PIN_Q1, 0);  //PMOS
-                                            ^
-../src/LPCOpen_PWMx4-Motor.c:110:35: error: 'PORT_Q2' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q2, PIN_Q2, 1);  //NMOS
-                                   ^
-../src/LPCOpen_PWMx4-Motor.c:110:44: error: 'PIN_Q2' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q2, PIN_Q2, 1);  //NMOS
-                                            ^
-../src/LPCOpen_PWMx4-Motor.c:111:35: error: 'PORT_Q3' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q3, PIN_Q3, 0);  //PMOS
-                                   ^
-../src/LPCOpen_PWMx4-Motor.c:111:44: error: 'PIN_Q3' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q3, PIN_Q3, 0);  //PMOS
-                                            ^
-../src/LPCOpen_PWMx4-Motor.c:112:35: error: 'PORT_Q4' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q4, PIN_Q4, 1);  //NMOS
-                                   ^
-../src/LPCOpen_PWMx4-Motor.c:112:44: error: 'PIN_Q4' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q4, PIN_Q4, 1);  //NMOS
-                                            ^
-../src/LPCOpen_PWMx4-Motor.c:113:35: error: 'PORT_Q5' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q5, PIN_Q5, 0);  //PMOS
-                                   ^
-../src/LPCOpen_PWMx4-Motor.c:113:44: error: 'PIN_Q5' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q5, PIN_Q5, 0);  //PMOS
-                                            ^
-../src/LPCOpen_PWMx4-Motor.c:114:35: error: 'PORT_Q0' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q0, PIN_Q0, 1);  //NMOS
-                                   ^
-../src/LPCOpen_PWMx4-Motor.c:114:44: error: 'PIN_Q0' undeclared (first use in this function)
-  Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q0, PIN_Q0, 1);  //NMOS
-                                            ^
-../src/LPCOpen_PWMx4-Motor.c: At top level:
-../src/LPCOpen_PWMx4-Motor.c:164:6: error: conflicting types for 'NextPWM'
- void NextPWM(uint8_t motor)
-      ^
-In file included from ../src/Initiations.h:8:0,
-                 from ../src/LPCOpen_PWMx4-Motor.c:7:
-../src/Defines.h:149:6: note: previous declaration of 'NextPWM' was here
- void NextPWM(void);
-      ^
-../src/LPCOpen_PWMx4-Motor.c: In function 'NextPWM':
-../src/LPCOpen_PWMx4-Motor.c:170:47: error: subscripted value is neither array nor pointer nor vector
-   Chip_PWM_SetMatch(LPC_PWM1, motor, DutyCycle[motor]);
-                                               ^
-../src/LPCOpen_PWMx4-Motor.c:179:36: error: 'PORT_Qa' undeclared (first use in this function)
-   Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[motor], PIN_Qa[2], 0); //Apago Q4
-                                    ^
-../src/LPCOpen_PWMx4-Motor.c:179:52: error: 'PIN_Qa' undeclared (first use in this function)
-   Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[motor], PIN_Qa[2], 0); //Apago Q4
-                                                    ^
-../src/LPCOpen_PWMx4-Motor.c:183:36: error: 'PORT_Qb' undeclared (first use in this function)
-   Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[1], PIN_Qb[1], 1); //Apago Q3 inv
-                                    ^
-../src/LPCOpen_PWMx4-Motor.c:183:48: error: 'PIN_Qb' undeclared (first use in this function)
-   Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qb[1], PIN_Qb[1], 1); //Apago Q3 inv
-                                                ^
-../src/LPCOpen_PWMx4-Motor.c:203:12: error: subscripted value is neither array nor pointer nor vector
-  if (StepID[motor] > 4) //Si StepID es mayor a 4 reseteo variable StepID
-            ^
-../src/LPCOpen_PWMx4-Motor.c:214:50: error: 'PORT_Z' undeclared (first use in this function)
-  CruceZero0[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
-                                                  ^
-../src/LPCOpen_PWMx4-Motor.c:214:61: error: 'PIN_Z' undeclared (first use in this function)
-  CruceZero0[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
-                                                             ^
-make: *** [src/LPCOpen_PWMx4-Motor.o] Error 1
+Finished building: ../src/LPCOpen_PWMx4-Motor.c
+ 
+Building file: ../src/cr_startup_lpc175x_6x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc175x_6x.d" -MT"src/cr_startup_lpc175x_6x.o" -MT"src/cr_startup_lpc175x_6x.d" -o "src/cr_startup_lpc175x_6x.o" "../src/cr_startup_lpc175x_6x.c"
+Finished building: ../src/cr_startup_lpc175x_6x.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\inc" -I"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Finished building: ../src/sysinit.c
+ 
+Building target: LPCOpen_PWMx4-Motor.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_board_nxp_lpcxpresso_1769\Debug" -L"D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug" -Xlinker -Map="LPCOpen_PWMx4-Motor.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "LPCOpen_PWMx4-Motor_Debug.ld" -o "LPCOpen_PWMx4-Motor.axf"  ./src/LPCOpen_PWMx4-Motor.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1769 -llpc_chip_175x_6x
+Finished building target: LPCOpen_PWMx4-Motor.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPCOpen_PWMx4-Motor.axf" ; arm-none-eabi-objcopy -v -O binary "LPCOpen_PWMx4-Motor.axf" "LPCOpen_PWMx4-Motor.bin" ; checksum -p LPC1769 -d "LPCOpen_PWMx4-Motor.bin" ; arm-none-eabi-objcopy -I binary "LPCOpen_PWMx4-Motor.bin" -O ihex "LPCOpen_PWMx4-Motor.hex"
+   text	   data	    bss	    dec	    hex	filename
+   7020	    156	     76	   7252	   1c54	LPCOpen_PWMx4-Motor.axf
+copy from `LPCOpen_PWMx4-Motor.axf' [elf32-littlearm] to `LPCOpen_PWMx4-Motor.bin' [binary]
+Created checksum 0xefff74b2 at offset 0x1c in file LPCOpen_PWMx4-Motor.bin 
 
-17:11:28 Build Finished (took 297ms)
+14:46:33 Build Finished (took 1s.459ms)
 

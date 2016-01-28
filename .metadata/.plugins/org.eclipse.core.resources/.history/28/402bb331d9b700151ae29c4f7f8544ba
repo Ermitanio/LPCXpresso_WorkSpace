@@ -1,0 +1,58 @@
+#include "Initializer.h"
+#include "chip.h"
+
+static void initHardware(void)
+{
+    Board_I2C_Init(I2C1);
+
+    /* pines del stick */
+	Chip_IOCON_PinMux(LPC_IOCON, 0, 0, IOCON_MODE_INACT, IOCON_FUNC3);
+	Chip_IOCON_PinMux(LPC_IOCON, 0, 1, IOCON_MODE_INACT, IOCON_FUNC3);
+	Chip_IOCON_EnableOD(LPC_IOCON, 0, 0);
+	Chip_IOCON_EnableOD(LPC_IOCON, 0, 1);
+
+    Chip_I2C_SetClockRate(I2C1, 100000);
+	Chip_I2C_SetMasterEventHandler(I2C1, Chip_I2C_EventHandlerPolling);
+
+	setup_SysTick_INT();
+}
+
+int UART_Init (void)
+{
+	//uint8_t key;
+	//int bytes;
+
+//	SystemCoreClockUpdate();
+//	Board_Init();
+	Board_UART_Init(UART_SELECTION);
+//	Board_LED_Set(0, false);
+
+	/* Setup UART for 115.2K8N1 */
+	Chip_UART_Init(UART_SELECTION);
+	Chip_UART_SetBaud(UART_SELECTION, 115200);
+	Chip_UART_ConfigData(UART_SELECTION, (UART_LCR_WLEN8 | UART_LCR_SBS_1BIT));
+	Chip_UART_SetupFIFOS(UART_SELECTION, (UART_FCR_FIFO_EN | UART_FCR_TRG_LEV2));
+	Chip_UART_TXEnable(UART_SELECTION);
+
+	/* Before using the ring buffers, initialize them using the ring
+	   buffer init function */
+	RingBuffer_Init(&rxring, rxbuff, 1, UART_RRB_SIZE);
+	RingBuffer_Init(&txring, txbuff, 1, UART_SRB_SIZE);
+
+	/* Reset and enable FIFOs, FIFO trigger level 3 (14 chars) */
+	Chip_UART_SetupFIFOS(UART_SELECTION, (UART_FCR_FIFO_EN | UART_FCR_RX_RS |
+							UART_FCR_TX_RS | UART_FCR_TRG_LEV3));
+
+	/* Enable receive data and line status interrupt */
+	Chip_UART_IntEnable(UART_SELECTION, (UART_IER_RBRINT | UART_IER_RLSINT));
+
+	/* preemption = 1, sub-priority = 1 */
+	NVIC_SetPriority(IRQ_SELECTION, 1);
+	NVIC_EnableIRQ(IRQ_SELECTION);
+
+	/* Send initial message */
+	Chip_UART_SendRB(UART_SELECTION, &txring, inst1, sizeof(inst1) - 1);
+
+	return 1;
+}
+

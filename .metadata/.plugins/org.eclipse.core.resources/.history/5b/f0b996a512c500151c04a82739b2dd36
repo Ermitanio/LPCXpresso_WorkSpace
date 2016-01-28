@@ -1,0 +1,6 @@
+#include "chip.h"
+
+
+
+//int UART_Init (void);
+static void InitHardware(void);

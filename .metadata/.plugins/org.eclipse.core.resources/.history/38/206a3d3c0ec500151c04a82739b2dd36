@@ -1,0 +1,41 @@
+#include "chip.h"
+#include "I2C_MPU.h"
+
+/*==================[macros]=================================================*/
+
+#define MPU6050_RA_PWR_MGMT_1   	 	0x6B
+#define MPU6050_RA_PWR_MGMT_2    	 	0x6C
+#define MPU6050_RA_FIFO_R_W 			0x74
+#define MPU6050_RA_FIFO_COUNTH			0x72
+#define MPU6050_RA_USER_CTRL 		 	0x6A
+#define MPU6050_RA_SELF_TEST_X		 	0x0D
+#define MPU6050_RA_ACCEL				0x3B	//X - Y - Z
+#define MPU6050_RA_TEMP					0x41
+#define MPU6050_RA_GYRO					0x43	//X - Y - Z
+
+
+#define ADDRESS_MPU		0x68
+
+/*==================[typedef]================================================*/
+
+typedef struct mpu_data
+{
+   uint16_t   ax;
+   uint16_t   ay;
+   uint16_t   az;
+   uint16_t   gx;
+   uint16_t   gy;
+   uint16_t   gz;
+} mpu_data;
+
+/*==================[internal functions declaration]=========================*/
+void Write_MPU (uint8_t registro, uint8_t escritura);
+void ReadByte_MPU (uint8_t registro, uint8_t *puntero);
+void Read_MPU (uint8_t registro, uint8_t *puntero, uint8_t cantidad);
+void MPU6050_wakeup(void);
+void Fill_Mpu_Data(mpu_data * mdata, uint8_t * rbuf);
+void registers_setup_MPU6050(void);
+uint16_t FIFO_Count(void);
+void reg_set_regs_inet(void);
+char Read_FIFO(uint8_t, uint8_t *);
+

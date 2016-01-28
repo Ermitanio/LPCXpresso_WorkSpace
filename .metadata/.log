@@ -324,3 +324,1283 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY org.eclipse.ui 4 4 2015-10-24 15:43:49.173
 !MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-11-07 12:19:03.743 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2015-11-07 12:19:41.680
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-11-07 12:19:41.695
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-11-13 17:02:13.493 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace
+
+!ENTRY org.eclipse.ui 4 4 2015-11-13 17:02:18.189
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-11-13 17:02:18.298
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-11-13 18:03:50.204 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace
+
+!ENTRY org.eclipse.ui 4 4 2015-11-13 18:03:54.735
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-11-13 18:03:54.737
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-11-26 15:00:04.020 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace
+
+!ENTRY org.eclipse.ui 4 4 2015-11-26 15:00:20.827
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-11-26 15:00:20.843
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-11-28 14:02:42.420 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2015-11-28 14:09:38.095
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-11-28 14:09:38.126
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-12-03 14:33:49.782 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2015-12-03 14:34:52.804
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-12-03 14:34:52.835
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-12-04 18:45:20.716 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace
+
+!ENTRY org.eclipse.ui 4 4 2015-12-04 18:45:25.458
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-12-04 18:45:25.484
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-12-05 16:53:02.527 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2015-12-05 16:53:41.520
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-12-05 16:53:41.540
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-12-06 13:09:19.607 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2015-12-06 13:09:37.753
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-12-06 13:09:37.785
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-12-06 13:45:15.800 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace
+
+!ENTRY org.eclipse.ui 4 4 2015-12-06 13:46:39.857
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-12-06 13:46:39.857
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY com.crt.debugcommon 4 -1 2015-12-06 13:55:20.900
+!MESSAGE Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+Cannot connect to the server process: redlinkserv.exe (port:3025)
+
+
+!STACK 0
+java.lang.RuntimeException: Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+Cannot connect to the server process: redlinkserv.exe (port:3025)
+
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:806)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:184)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:171)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:152)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:137)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:128)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:116)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.discoverEmulators(RedlinkServerEmuHandler.java:207)
+	at com.crt.debugcommon.emulator.win.AbstractWinServerProbe.discoverEmulators(AbstractWinServerProbe.java:77)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getEmus(EmulatorsDB.java:335)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getEmulatorInfo(EmulatorsDB.java:290)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getAvailableEmulators(EmulatorsDB.java:213)
+	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:563)
+	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:527)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:306)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.init(LaunchScriptUtils.java:523)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:214)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:198)
+	at com.crt.dsfdebug.dsf.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:146)
+	at com.crt.dsfdebug.dsf.override.CRTFinalLaunchSequence$TargetDiscoveryJob.runInUIThread(CRTFinalLaunchSequence.java:102)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.io.IOException: Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.createServerProcess(RedlinkServerClient.java:355)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:774)
+	... 45 more
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 48 more
+
+!ENTRY com.crt.debugcommon 4 4 2015-12-06 13:55:20.900
+!MESSAGE Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+Cannot connect to the server process: redlinkserv.exe (port:3025)
+
+
+!STACK 0
+java.lang.RuntimeException: Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+Cannot connect to the server process: redlinkserv.exe (port:3025)
+
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:806)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:184)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:171)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:152)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:137)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:128)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:116)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.discoverEmulators(RedlinkServerEmuHandler.java:207)
+	at com.crt.debugcommon.emulator.win.AbstractWinServerProbe.discoverEmulators(AbstractWinServerProbe.java:77)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getEmus(EmulatorsDB.java:335)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getEmulatorInfo(EmulatorsDB.java:290)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getAvailableEmulators(EmulatorsDB.java:213)
+	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:563)
+	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:527)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:306)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.init(LaunchScriptUtils.java:523)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:214)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:198)
+	at com.crt.dsfdebug.dsf.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:146)
+	at com.crt.dsfdebug.dsf.override.CRTFinalLaunchSequence$TargetDiscoveryJob.runInUIThread(CRTFinalLaunchSequence.java:102)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.io.IOException: Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.createServerProcess(RedlinkServerClient.java:355)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:774)
+	... 45 more
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 48 more
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE xp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE Cannot connect to the server process: redlinkserv.exe (port:3025)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:806)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:184)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:171)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:152)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:137)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:128)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:116)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.discoverEmulators(RedlinkServerEmuHandler.java:207)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.win.AbstractWinServerProbe.discoverEmulators(AbstractWinServerProbe.java:77)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.EmulatorsDB.getEmus(EmulatorsDB.java:335)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.EmulatorsDB.getEmulatorInfo(EmulatorsDB.java:290)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.EmulatorsDB.getAvailableEmulators(EmulatorsDB.java:213)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:563)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:527)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.utils.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:306)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.utils.LaunchScriptUtils.init(LaunchScriptUtils.java:523)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:214)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:198)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.dsfdebug.dsf.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:146)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.dsfdebug.dsf.override.CRTFinalLaunchSequence$TargetDiscoveryJob.runInUIThread(CRTFinalLaunchSequence.java:102)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at java.lang.reflect.Method.invoke(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE Caused by: java.io.IOException: Cannot run program "C:
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE xp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at java.lang.ProcessBuilder.start(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.createServerProcess(RedlinkServerClient.java:355)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:774)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	... 45 more
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at java.lang.ProcessImpl.create(Native Method)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at java.lang.ProcessImpl.<init>(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	at java.lang.ProcessImpl.start(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2015-12-06 13:55:20.900
+!MESSAGE 	... 48 more
+
+!ENTRY com.crt.log 4 -1 2015-12-06 13:55:28.854
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2015-12-06 13:55:29.119
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm3_nxp -msg-port=55203 -g -mi -2 -pLPC1769 -vendor=NXP -e0 -wire=winUSB -flash-driver=LPC175x_6x_512.cfx
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:115)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:235)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at com.crt.ctrlcenter.launch.BuildLaunchUtils.terminateAndLaunch(BuildLaunchUtils.java:915)
+	at com.crt.ctrlcenter.launch.BuildLaunchUtils.access$0(BuildLaunchUtils.java:888)
+	at com.crt.ctrlcenter.launch.BuildLaunchUtils$2.run(BuildLaunchUtils.java:854)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:926)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:755)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-06 13:55:29.119
+!MESSAGE Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm3_nxp -msg-port=55203 -g -mi -2 -pLPC1769 -vendor=NXP -e0 -wire=winUSB -flash-driver=LPC175x_6x_512.cfx
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:926)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:755)
+
+!ENTRY com.crt.dsfdebug 4 0 2015-12-06 13:55:29.689
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:55:29.689
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:55:29.689
+!MESSAGE Invalid emulator index - get list of available emulators.
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:55:29.689
+!MESSAGE 31: No connection to emulator device
+
+!ENTRY com.crt.log 4 -1 2015-12-06 13:55:40.176
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2015-12-06 13:55:40.426
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm3_nxp -msg-port=55207 -g -mi -2 -pLPC1769 -vendor=NXP -e0 -wire=winUSB -flash-driver=LPC175x_6x_512.cfx
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:115)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:235)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:926)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:755)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-06 13:55:40.426
+!MESSAGE Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm3_nxp -msg-port=55207 -g -mi -2 -pLPC1769 -vendor=NXP -e0 -wire=winUSB -flash-driver=LPC175x_6x_512.cfx
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:926)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:755)
+
+!ENTRY com.crt.dsfdebug 4 0 2015-12-06 13:55:40.973
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:55:40.973
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:55:40.973
+!MESSAGE Invalid emulator index - get list of available emulators.
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:55:40.973
+!MESSAGE 31: No connection to emulator device
+
+!ENTRY com.crt.log 4 -1 2015-12-06 13:55:56.211
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2015-12-06 13:55:56.461
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm3_nxp -msg-port=55211 -g -mi -2 -pLPC1769 -vendor=NXP -e0 -wire=winUSB -flash-driver=LPC175x_6x_512.cfx
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:115)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:235)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:926)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:755)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-06 13:55:56.461
+!MESSAGE Failed to execute MI command:
+-target-select extended-remote | crt_emu_cm3_nxp -msg-port=55211 -g -mi -2 -pLPC1769 -vendor=NXP -e0 -wire=winUSB -flash-driver=LPC175x_6x_512.cfx
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: No error.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: No error.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:926)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:755)
+
+!ENTRY com.crt.dsfdebug 4 0 2015-12-06 13:55:56.821
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:55:56.821
+!MESSAGE 02: Failed on connect
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:55:56.821
+!MESSAGE Invalid emulator index - get list of available emulators.
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:55:56.821
+!MESSAGE 31: No connection to emulator device
+
+!ENTRY com.crt.log 1 0 2015-12-06 13:57:15.587
+!MESSAGE Drivers loaded in 36017 milliseconds
+
+!ENTRY com.crt.debugcommon 4 -1 2015-12-06 13:57:16.329
+!MESSAGE Error received while booting LPC-Link (WinUSB) or RDB-Link:
+Timeout waiting for LPC-Link (WinUSB) or RDB-Link to initialize (2).
+
+
+!ENTRY com.crt.log 4 -1 2015-12-06 13:57:42.753
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2015-12-06 13:59:38.503
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.dsfdebug 4 0 2015-12-06 13:59:42.819
+!MESSAGE Flash driver "EraseSector" timeout (3000 ms)  PC: 000001F0
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:59:42.819
+!MESSAGE Flash driver "EraseSector" timeout (3000 ms)  PC: 000001F0
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2015-12-06 13:59:45.665
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-target-download
+Error message from debugger back end:
+Error finishing flash operation
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:115)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:235)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.Exception: Error finishing flash operation
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:926)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:755)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-06 13:59:45.665
+!MESSAGE Failed to execute MI command:
+-target-download
+Error message from debugger back end:
+Error finishing flash operation
+!STACK 0
+java.lang.Exception: Error finishing flash operation
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:926)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:755)
+
+!ENTRY com.crt.dsfdebug 4 0 2015-12-06 13:59:46.471
+!MESSAGE Flash driver "Terminate" timeout (500 ms)  PC: 000001F0
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2015-12-06 13:59:46.471
+!MESSAGE Flash driver "Terminate" timeout (500 ms)  PC: 000001F0
+
+!ENTRY com.crt.log 4 -1 2015-12-06 14:00:12.241
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2015-12-06 14:06:07.610
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1959468): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2015-12-06 14:06:07.610
+!MESSAGE Context cannot be suspended.
+
+!ENTRY com.crt.log 4 -1 2015-12-06 14:08:33.641
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+!SESSION 2015-12-19 15:32:39.418 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace
+
+!ENTRY org.eclipse.ui 4 4 2015-12-19 15:32:51.522
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-12-19 15:32:51.528
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2015-12-23 14:49:34.445 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2015-12-23 14:50:16.848
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-12-23 14:50:16.874
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-12-23 14:50:53.464
+!MESSAGE Indexed 'Prueba_RF' (6 sources, 48 headers) in 1,04 sec: 3.700 declarations; 5.900 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-12-23 14:50:53.888
+!MESSAGE Indexed 'MPU-6050' (7 sources, 48 headers) in 0,422 sec: 3.497 declarations; 5.409 references; 0 unresolved inclusions; 0 syntax errors; 22 unresolved names (0,25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-12-23 14:50:54.292
+!MESSAGE Indexed 'Prueba_RF_TX' (6 sources, 48 headers) in 0,402 sec: 3.714 declarations; 5.933 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2015-12-25 13:05:42.956 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2015-12-25 13:05:57.579
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2015-12-25 13:05:57.654
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2015-12-25 13:10:06.915
+!MESSAGE Internal Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.ui.refactoring.includes.IncludeUtil.findIncludeGuard(IncludeUtil.java:209)
+	at org.eclipse.cdt.internal.ui.refactoring.rename.HeaderFileReferenceAdjuster.createIncludeGuardEdit(HeaderFileReferenceAdjuster.java:448)
+	at org.eclipse.cdt.internal.ui.refactoring.rename.HeaderFileReferenceAdjuster.createEdit(HeaderFileReferenceAdjuster.java:245)
+	at org.eclipse.cdt.internal.ui.refactoring.rename.HeaderFileReferenceAdjuster.createEdit(HeaderFileReferenceAdjuster.java:229)
+	at org.eclipse.cdt.internal.ui.refactoring.rename.HeaderFileReferenceAdjuster.addFileChange(HeaderFileReferenceAdjuster.java:204)
+	at org.eclipse.cdt.internal.ui.refactoring.rename.HeaderFileReferenceAdjuster.createChange(HeaderFileReferenceAdjuster.java:174)
+	at org.eclipse.cdt.internal.ui.refactoring.rename.HeaderFileRenameParticipant.checkConditions(HeaderFileRenameParticipant.java:110)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:257)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:85)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:121)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:209)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SESSION 2016-01-06 13:09:19.038 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-01-06 13:09:42.573
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-01-06 13:09:42.737
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+!SESSION 2016-01-25 21:33:53.658 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-01-25 21:34:15.406
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-01-25 21:34:15.501
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY com.crt.debugcommon 4 -1 2016-01-27 16:40:47.896
+!MESSAGE Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+Cannot connect to the server process: redlinkserv.exe (port:3025)
+
+
+!STACK 0
+java.lang.RuntimeException: Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+Cannot connect to the server process: redlinkserv.exe (port:3025)
+
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:806)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:184)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:171)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:152)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:137)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:128)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:116)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.discoverEmulators(RedlinkServerEmuHandler.java:207)
+	at com.crt.debugcommon.emulator.win.AbstractWinServerProbe.discoverEmulators(AbstractWinServerProbe.java:77)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getEmus(EmulatorsDB.java:335)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getEmulatorInfo(EmulatorsDB.java:290)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getAvailableEmulators(EmulatorsDB.java:213)
+	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:563)
+	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:527)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:306)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.init(LaunchScriptUtils.java:523)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:214)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:198)
+	at com.crt.dsfdebug.dsf.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:146)
+	at com.crt.dsfdebug.dsf.override.CRTFinalLaunchSequence$TargetDiscoveryJob.runInUIThread(CRTFinalLaunchSequence.java:102)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.io.IOException: Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.createServerProcess(RedlinkServerClient.java:355)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:774)
+	... 45 more
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 48 more
+
+!ENTRY com.crt.debugcommon 4 4 2016-01-27 16:40:47.912
+!MESSAGE Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+Cannot connect to the server process: redlinkserv.exe (port:3025)
+
+
+!STACK 0
+java.lang.RuntimeException: Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+Cannot connect to the server process: redlinkserv.exe (port:3025)
+
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:806)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:184)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:171)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:152)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:137)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:128)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:116)
+	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.discoverEmulators(RedlinkServerEmuHandler.java:207)
+	at com.crt.debugcommon.emulator.win.AbstractWinServerProbe.discoverEmulators(AbstractWinServerProbe.java:77)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getEmus(EmulatorsDB.java:335)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getEmulatorInfo(EmulatorsDB.java:290)
+	at com.crt.debugcommon.emulator.EmulatorsDB.getAvailableEmulators(EmulatorsDB.java:213)
+	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:563)
+	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:527)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:306)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.init(LaunchScriptUtils.java:523)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:214)
+	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:198)
+	at com.crt.dsfdebug.dsf.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:146)
+	at com.crt.dsfdebug.dsf.override.CRTFinalLaunchSequence$TargetDiscoveryJob.runInUIThread(CRTFinalLaunchSequence.java:102)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.io.IOException: Cannot run program "C:\nxp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.createServerProcess(RedlinkServerClient.java:355)
+	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:774)
+	... 45 more
+Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 48 more
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE xp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado.
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE Cannot connect to the server process: redlinkserv.exe (port:3025)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:806)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:184)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.<init>(RedlinkServerClient.java:171)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:152)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:137)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:128)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:116)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.common.redlinkserver.RedlinkServerEmuHandler.discoverEmulators(RedlinkServerEmuHandler.java:207)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.win.AbstractWinServerProbe.discoverEmulators(AbstractWinServerProbe.java:77)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.EmulatorsDB.getEmus(EmulatorsDB.java:335)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.EmulatorsDB.getEmulatorInfo(EmulatorsDB.java:290)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.EmulatorsDB.getAvailableEmulators(EmulatorsDB.java:213)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:563)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.TargetDiscovery.probeDiscovery(TargetDiscovery.java:527)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.utils.LaunchScriptUtils.getEmulatorInfo(LaunchScriptUtils.java:306)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.utils.LaunchScriptUtils.init(LaunchScriptUtils.java:523)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:214)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.utils.LaunchScriptUtils.<init>(LaunchScriptUtils.java:198)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.dsfdebug.dsf.services.TargetDiscoveryService.getTargetDiscovery(TargetDiscoveryService.java:146)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.dsfdebug.dsf.override.CRTFinalLaunchSequence$TargetDiscoveryJob.runInUIThread(CRTFinalLaunchSequence.java:102)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at java.lang.reflect.Method.invoke(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE Caused by: java.io.IOException: Cannot run program "C:
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE xp\LPCXpresso_7.7.2_379\lpcxpresso\redlinkserv.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at java.lang.ProcessBuilder.start(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.createServerProcess(RedlinkServerClient.java:355)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at com.crt.debugcommon.emulator.client.RedlinkServerClient.openServer(RedlinkServerClient.java:774)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	... 45 more
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE Caused by: java.io.IOException: CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at java.lang.ProcessImpl.create(Native Method)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at java.lang.ProcessImpl.<init>(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	at java.lang.ProcessImpl.start(Unknown Source)
+!SUBENTRY 1 com.crt.debugcommon 4 0 2016-01-27 16:40:47.912
+!MESSAGE 	... 48 more
+
+!ENTRY com.crt.log 1 0 2016-01-27 16:41:02.718
+!MESSAGE Drivers loaded in 8446 milliseconds
+
+!ENTRY com.crt.log 4 -1 2016-01-27 16:41:08.089
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 1 0 2016-01-27 16:42:45.737
+!MESSAGE Drivers loaded in 8799 milliseconds
+
+!ENTRY com.crt.log 4 -1 2016-01-27 16:42:47.158
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-27 16:49:08.277
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 1 0 2016-01-27 17:02:59.622
+!MESSAGE Drivers loaded in 52377 milliseconds
+
+!ENTRY com.crt.debugcommon 4 -1 2016-01-27 17:03:01.032
+!MESSAGE Error received while booting LPC-Link (WinUSB) or RDB-Link:
+Timeout waiting for LPC-Link (WinUSB) or RDB-Link to initialize (2).
+
+
+!ENTRY com.crt.log 1 0 2016-01-27 17:04:11.487
+!MESSAGE Drivers loaded in 46307 milliseconds
+
+!ENTRY com.crt.log 4 -1 2016-01-27 17:04:12.884
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-27 17:09:23.702
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-27 17:20:32.754
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-27 17:25:12.597
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-27 17:29:55.403
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-27 18:13:53.199
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more

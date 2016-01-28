@@ -22,7 +22,7 @@ void InitPWM(void)
 	Chip_PWM_StopOnMatchDisable(LPC_PWM1, 0);	//No stop
 
 	//Configuro los demas canales (3 -> 6)
-	for(channel=3; channel <= 6; channel++)
+	for(channel=5; channel <= 6; channel++)
 	{
 		//Configure PWM channel edge (single) CHANNEL 5
 		//-----------------------------------------------------------------------------------------------
@@ -66,19 +66,6 @@ void InitGPIO(void)
 	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q24, PIN_Q24 , SALIDA);	//Configuro el pin como salida
 	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q25, PIN_Q25 , SALIDA);	//Configuro el pin como salida
 
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q30, PIN_Q30 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q31, PIN_Q31 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q32, PIN_Q32 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q33, PIN_Q33 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q34, PIN_Q34 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q35, PIN_Q35 , SALIDA);	//Configuro el pin como salida
-
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q40, PIN_Q40 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q41, PIN_Q41 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q42, PIN_Q42 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q43, PIN_Q43 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q44, PIN_Q44 , SALIDA);	//Configuro el pin como salida
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Q45, PIN_Q45 , SALIDA);	//Configuro el pin como salida
 	//APAGAR TRANSISTORES
 	//-----------------------------------------------------------------------------------------------
 	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q11, PIN_Q11, 0);		//PMOS
@@ -95,19 +82,18 @@ void InitGPIO(void)
 	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q25, PIN_Q25, 0);		//PMOS
 	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q20, PIN_Q20, 1);		//NMOS
 
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q31, PIN_Q31, 0);		//PMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q32, PIN_Q32, 1);		//NMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q33, PIN_Q33, 0);		//PMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q34, PIN_Q34, 1);		//NMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q35, PIN_Q35, 0);		//PMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q30, PIN_Q30, 1);		//NMOS
+	 P2_6ER = 1;    P2_7ER = 1;    P2_8ER = 1;
 
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q41, PIN_Q41, 0);		//PMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q42, PIN_Q42, 1);		//NMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q43, PIN_Q43, 0);		//PMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q44, PIN_Q44, 1);		//NMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q45, PIN_Q45, 0);		//PMOS
-	Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Q40, PIN_Q40, 1);		//NMOS
+	    P2_6EF = 1;    P2_7EF = 1;    P2_8EF = 1;
+
+
+	    P0_15ER = 1;    P0_16ER = 1;    P2_9ER = 1;
+
+	    P0_15EF = 1;    P0_16EF = 1;    P2_9EF = 1;
+
+
+	    NVIC_EnableIRQ(EINT3_IRQn);
+
 	//CONFIGURAR ENTRADAS
 	//-----------------------------------------------------------------------------------------------
 	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z11, PIN_Z11, 0);
@@ -117,12 +103,4 @@ void InitGPIO(void)
 	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z21, PIN_Z21, 0);
 	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z22, PIN_Z22, 0);
 	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z23, PIN_Z23, 0);
-
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z31, PIN_Z31, 0);
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z32, PIN_Z32, 0);
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z33, PIN_Z33, 0);
-
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z41, PIN_Z41, 0);
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z42, PIN_Z42, 0);
-	Chip_GPIO_WriteDirBit(LPC_GPIO, PORT_Z43, PIN_Z43, 0);
 }

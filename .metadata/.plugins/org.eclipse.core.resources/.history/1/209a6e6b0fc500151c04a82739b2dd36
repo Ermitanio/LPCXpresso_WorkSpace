@@ -1,0 +1,6 @@
+#include "chip.h"
+
+uint8_t Data_Read[120]={0};		//Buffer de lectura de datos
+
+int UART_Init (void);
+static void InitHardware(void);

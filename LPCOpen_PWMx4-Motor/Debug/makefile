@@ -41,7 +41,7 @@ clean:
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size "LPCOpen_PWMx4-Motor.axf"; # arm-none-eabi-objcopy -v -O binary "LPCOpen_PWMx4-Motor.axf" "LPCOpen_PWMx4-Motor.bin" ; # checksum -p LPC1769 -d "LPCOpen_PWMx4-Motor.bin";
+	-arm-none-eabi-size "LPCOpen_PWMx4-Motor.axf" ; arm-none-eabi-objcopy -v -O binary "LPCOpen_PWMx4-Motor.axf" "LPCOpen_PWMx4-Motor.bin" ; checksum -p LPC1769 -d "LPCOpen_PWMx4-Motor.bin" ; arm-none-eabi-objcopy -I binary "LPCOpen_PWMx4-Motor.bin" -O ihex "LPCOpen_PWMx4-Motor.hex"
 	-@echo ' '
 
 .PHONY: all clean dependents

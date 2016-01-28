@@ -2,19 +2,29 @@
  * PWM USANDO MODULO DEL LPC PARA PRENDER 3 LEDS TIPO TIFASICO, ALTERNADO (Ruben Board)
  */
 
-#include "board.h"
+//#include "board.h"
 #include "chip.h"
 #include "Initiations.h"
+
+/* System oscillator rate and RTC oscillator rate */
+const uint32_t OscRateIn = 12000000;
+const uint32_t RTCOscRateIn = 32768;
+
+uint32_t frecuencia=0;
 
 // MAIN PROGRAM
 int main(void)
 {
 	uint16_t Giro = 0, Giro0 = 0, CloseLoop=0, Inertia=0xFF;
+
+	frecuencia=Chip_Clock_GetSystemClockRate();
 	//Init All
 	//-----------------------------------------------------------------------------------------------
 	Stop_and_Default();	//Condiciones iniciales
 	InitGPIO();			//Llamo función para inicializar GPIO
 	InitPWM();			//Función inicialización modulo PWM
+	Start_Up_Brushless();		//Arranque del motor   **********************7777777777777777777777777777744444444444***************
+	Giro=1;
 	//Main Loop
 	//-----------------------------------------------------------------------------------------------
 	while (1)
@@ -78,6 +88,7 @@ int main(void)
 //DETECTOR CRUCES POR CERO
 void Zero_Detect(void)
 {
+	/*
 	//Lectura de feedback
 	//-----------------------------------------------------------------------------------------------
 	CruceZero[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
@@ -93,7 +104,9 @@ void Zero_Detect(void)
 		else{
 			if(CruceZero0[2] != CruceZero[2]){
 				NextPWM();}
-	}}
+	}}*/
+	if(CruceZero0[0] != (LPC_GPIO2->PIN & 0x000000E0))
+			NextPWM();
 }
 
 //DEFAULT
@@ -149,7 +162,9 @@ void Start_Up_Brushless(void)
 	DutyCycle = 150;		// (150/1000)-> 15% Duty
 
 	Chip_PWM_SetMatch(LPC_PWM1, 5, DutyCycle);
-	Chip_PWM_Reset(LPC_PWM1);
+	//Chip_PWM_Reset(LPC_PWM1);
+	Chip_PWM_LatchEnable(LPC_PWM1, 5, PWM_OUT_ENABLED);
+
 }
 
 //PWM
@@ -160,7 +175,8 @@ void NextPWM(void)
 	if (DutyCycle != DutyCycle0)
 	{
 		Chip_PWM_SetMatch(LPC_PWM1, 5, DutyCycle);
-		Chip_PWM_Reset(LPC_PWM1);
+		//Chip_PWM_Reset(LPC_PWM1);
+		Chip_PWM_LatchEnable(LPC_PWM1, 5, PWM_OUT_ENABLED);
 		DutyCycle0 = DutyCycle;
 	}
 	//Conmutaciones MOSfet
@@ -203,9 +219,10 @@ void NextPWM(void)
 
 	//Estado anterior cruces zeros
 	//-----------------------------------------------------------------------------------------------
-	CruceZero0[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
-	CruceZero0[1] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[1], PIN_Z[1]);
-	CruceZero0[2] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[2], PIN_Z[2]);
+	//CruceZero0[0] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[0], PIN_Z[0]);
+	//CruceZero0[1] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[1], PIN_Z[1]);
+	//CruceZero0[2] = Chip_GPIO_ReadPortBit(LPC_GPIO, PORT_Z[2], PIN_Z[2]);
+	CruceZero0[0] = LPC_GPIO2->PIN & 0x000000E0;
 }
 
 //INTERRUPT PWM
@@ -231,3 +248,4 @@ void PWM1_IRQHandler(void)
 		Chip_GPIO_WritePortBit(LPC_GPIO, PORT_Qa[Cycle], PIN_Qa[Cycle], 0);	//Apagar
 	}
 }
+

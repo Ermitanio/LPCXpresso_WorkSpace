@@ -1,0 +1,30 @@
+/*
+ *	PROYECTO MEDIDAS ELECTRÓNICAS I (2015) (UTN-FRBA)
+ *
+ *	Castro Miranda, Maximiliano
+ *
+ *	Lectura módulo MPU-6050 (Acelerometro y giroscopio)
+ *	Lectura mediante I2C y transmisión a pc mediante UART
+ *	Algoritmo de kalman y corrección por temperatura del sensor
+ */
+
+#include "I2C_MPU.h"
+#include "MPU6050.h"
+#include "Initializer.h"
+
+uint8_t Data_Read[120]={0};		//Buffer de lectura de datos
+
+int main(void)
+{
+	InitHardware();
+	//UART0_Init();
+	reg_set_regs_inet();	//Setea todos los registros necesarios para utilizar la FIFO
+
+	Read_FIFO(12, &Data_Read[0]); 	//envío cantidad a leer y el puntero de almacenamiento
+
+	while(1)
+	{
+		Read_FIFO(12, &Data_Read[0]); 	//envío cantidad a leer y el puntero de almacenamiento
+	}
+	return 0;
+}

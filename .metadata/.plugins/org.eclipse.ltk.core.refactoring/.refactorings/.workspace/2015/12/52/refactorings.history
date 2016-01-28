@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/LPCOpen_PWM-MotorBrushless/src/Defines.h" element2="/LPCOpen_PWM-MotorBrushless/src/Initiations.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1451059628980"/>&#x0A;<refactoring comment="Delete resource &apos;LPCOpen_PWM-MotorBrushless/inc/Initiations.h&apos;" deleteContents="false" description="Delete resource &apos;LPCOpen_PWM-MotorBrushless/inc/Initiations.h&apos;" element1="/LPCOpen_PWM-MotorBrushless/inc/Initiations.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1451059698345"/>
+</session>
