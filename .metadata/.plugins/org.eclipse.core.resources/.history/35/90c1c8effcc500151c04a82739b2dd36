@@ -22,7 +22,6 @@ void SysTick_Handler (void)        //ISR (Interrupt Service Routine)
 
 int main(void)
 {
-	uint32_t CuentaFIFO=0;
 	InitHardware();
 	//UART0_Init();
 	reg_set_regs_inet();	//Setea todos los registros necesarios para utilizar la FIFO
@@ -31,10 +30,10 @@ int main(void)
 
 	while(1)
 	{
-		Read_FIFO(28, &Data_Read[0]); 	//envío cantidad a leer y el puntero de almacenamiento
+		//Read_FIFO(28, &Data_Read[0]); 	//envío cantidad a leer y el puntero de almacenamiento
 		//ReadByte_MPU (WHO_AM_I_MPU6050, &Data_Read[0]);
 		//Read_MPU (ACCEL_XOUT_H, &Data_Read[0], 14);
-		//CuentaFIFO=FIFO_Count();
+		Data_Read[0]=FIFO_Count();
 	}
 	return 0;
 }

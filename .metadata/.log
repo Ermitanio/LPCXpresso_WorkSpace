@@ -1604,3 +1604,126 @@ Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a n
 	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
 	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
 	... 13 more
+
+!ENTRY com.crt.log 1 0 2016-01-28 17:19:40.676
+!MESSAGE Drivers loaded in 5940 milliseconds
+
+!ENTRY com.crt.log 4 -1 2016-01-28 17:19:44.513
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-28 17:23:52.319
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-28 17:28:23.555
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-28 17:32:59.486
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more
+
+!ENTRY com.crt.log 4 -1 2016-01-28 17:36:03.065
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.utils.general.Reporter.log(Reporter.java:635)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:40)
+	at com.crt.etmetb.service.EtbService.initRedlinkClient(EtbService.java:281)
+	at com.crt.etmetb.service.EtbService.doInitialize(EtbService.java:251)
+	at com.crt.etmetb.service.EtbService.access$1(EtbService.java:199)
+	at com.crt.etmetb.service.EtbService$2.handleSuccess(EtbService.java:193)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:386)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:313)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jface.bindings.keys.ParseException: Unable to extract a numeric argument matching '-CoreIndex=([0-9]+)' from '-wire=winUSB'
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.parseEmulatorOptions(RedlinkServerInfoFactory.java:64)
+	at com.crt.etmetb.redlink.RedlinkServerInfoFactory.getServerInfo(RedlinkServerInfoFactory.java:35)
+	... 13 more

@@ -31,9 +31,9 @@ int main(void)
 
 	while(1)
 	{
-		Read_FIFO(28, &Data_Read[0]); 	//envío cantidad a leer y el puntero de almacenamiento
+		//Read_FIFO(28, &Data_Read[0]); 	//envío cantidad a leer y el puntero de almacenamiento
 		//ReadByte_MPU (WHO_AM_I_MPU6050, &Data_Read[0]);
-		//Read_MPU (ACCEL_XOUT_H, &Data_Read[0], 14);
+		Read_MPU (ACCEL_XOUT_H, &Data_Read[0], 14);
 		//CuentaFIFO=FIFO_Count();
 	}
 	return 0;

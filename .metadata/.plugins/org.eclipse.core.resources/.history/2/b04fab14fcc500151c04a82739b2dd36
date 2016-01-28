@@ -82,7 +82,7 @@ void reg_set_regs_inet(void)
 
 	// Configure MPU6050 gyro and accelerometer for bias calculation
 	I2C_WriteByte(ADDRESS_MPU, CONFIG, 0x01);      	// Set low-pass filter to 188 Hz
-	I2C_WriteByte(ADDRESS_MPU, SMPLRT_DIV, 0xFF);  	// Set sample rate to 1 kHz
+	I2C_WriteByte(ADDRESS_MPU, SMPLRT_DIV, 0x00);  	// Set sample rate to 1 kHz
 	I2C_WriteByte(ADDRESS_MPU, GYRO_CONFIG, 0x00);  // Set gyro full-scale to 250 degrees per second, maximum sensitivity
 	I2C_WriteByte(ADDRESS_MPU, ACCEL_CONFIG, 0x00); // Set accelerometer full-scale to 2 g, maximum sensitivity
 
@@ -101,7 +101,7 @@ void reg_set_regs_inet(void)
  */
 char Read_FIFO(uint8_t samples_cant, uint8_t* readbuff )
 {
-	uint16_t fifo_count=0; //packet_count=0;
+	uint16_t fifo_count=0, packet_count=0;
 
 	//TODO: Por que sucede esto a partir del 39????
 	//Delay(80); // accumulate 80 samples in 80 milliseconds = 960 bytes (FUNCIONA Y DEVUELVE 80 SAMPLES)
@@ -116,9 +116,9 @@ char Read_FIFO(uint8_t samples_cant, uint8_t* readbuff )
 	}
 
 	fifo_count = FIFO_Count();
-	//packet_count = fifo_count/12;
+	packet_count = fifo_count/12;
 
-	if(samples_cant <= fifo_count)
+	if(samples_cant <= packet_count)
 		Read_MPU(MPU6050_RA_FIFO_R_W, readbuff, samples_cant); //Lectura de muestras requeridas
 	else
 		return 0;
@@ -136,8 +136,7 @@ uint16_t FIFO_Count(void)
 	uint16_t count=0;
 
 	Read_MPU(MPU6050_RA_FIFO_COUNTH, &rbuf[0], 2);
-	count = rbuf[0];
-	count = (count << 8) | rbuf[1];
+	count = (rbuf[0] << 8) | rbuf[1];
 
 	return count;
 }

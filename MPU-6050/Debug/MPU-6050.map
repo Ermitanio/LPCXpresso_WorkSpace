@@ -871,7 +871,7 @@ END GROUP
                 0x10008000                __top_RamLoc32 = 0x10008000
                 0x20084000                __top_RamAHB32 = 0x20084000
 
-.text           0x00000000     0x13ac
+.text           0x00000000     0x13a0
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -880,10 +880,10 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0x13ac LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x13a0 LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x000000d4        0x4 LONG 0x54 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0x13ac LOADADDR (.data_RAM2)
+                0x000000d8        0x4 LONG 0x13a0 LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
@@ -978,181 +978,181 @@ END GROUP
  .text.SysTick_Handler
                 0x00000560       0x1c ./src/MPU-6050.o
                 0x00000560                SysTick_Handler
- .text.main     0x0000057c       0x1c ./src/MPU-6050.o
+ .text.main     0x0000057c       0x20 ./src/MPU-6050.o
                 0x0000057c                main
  .text.Read_MPU
-                0x00000598       0x24 ./src/MPU6050.o
-                0x00000598                Read_MPU
+                0x0000059c       0x24 ./src/MPU6050.o
+                0x0000059c                Read_MPU
  .text.reg_set_regs_inet
-                0x000005bc       0xec ./src/MPU6050.o
-                0x000005bc                reg_set_regs_inet
+                0x000005c0       0xec ./src/MPU6050.o
+                0x000005c0                reg_set_regs_inet
  .text.Read_FIFO
-                0x000006a8       0x6c ./src/MPU6050.o
-                0x000006a8                Read_FIFO
+                0x000006ac       0x58 ./src/MPU6050.o
+                0x000006ac                Read_FIFO
  .text.FIFO_Count
-                0x00000714       0x38 ./src/MPU6050.o
-                0x00000714                FIFO_Count
- .text.Delay    0x0000074c       0x2c ./src/MPU6050.o
-                0x0000074c                Delay
+                0x00000704       0x3c ./src/MPU6050.o
+                0x00000704                FIFO_Count
+ .text.Delay    0x00000740       0x2c ./src/MPU6050.o
+                0x00000740                Delay
  .text.SystemInit
-                0x00000778       0x24 ./src/sysinit.o
-                0x00000778                SystemInit
+                0x0000076c       0x24 ./src/sysinit.o
+                0x0000076c                SystemInit
  .text.SystemCoreClockUpdate
-                0x0000079c       0x14 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
-                0x0000079c                SystemCoreClockUpdate
+                0x00000790       0x14 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x00000790                SystemCoreClockUpdate
  .text.Chip_Clock_IsMainPLLEnabled
-                0x000007b0       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000007a4       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLConnected
-                0x000007d8       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000007cc       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_FeedPLL
-                0x00000800       0x34 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000007f4       0x34 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainPLLSource
-                0x00000834       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000828       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainOscRate
-                0x00000854       0x18 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000848       0x18 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetIntOscRate
-                0x0000086c       0x14 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000860       0x14 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetRTCOscRate
-                0x00000880       0x18 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000874       0x18 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainPLLInClockRate
-                0x00000898       0x10 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000088c       0x10 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_EnablePLL
-                0x000008a8       0x44 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000008a8                Chip_Clock_EnablePLL
+                0x0000089c       0x44 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000089c                Chip_Clock_EnablePLL
  .text.Chip_Clock_DisablePLL
-                0x000008ec       0x44 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000008ec                Chip_Clock_DisablePLL
+                0x000008e0       0x44 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000008e0                Chip_Clock_DisablePLL
  .text.Chip_Clock_SetupPLL
-                0x00000930       0x58 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000930                Chip_Clock_SetupPLL
+                0x00000924       0x58 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000924                Chip_Clock_SetupPLL
  .text.Chip_Clock_GetCPUClockSource
-                0x00000988       0x24 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000988                Chip_Clock_GetCPUClockSource
+                0x0000097c       0x24 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000097c                Chip_Clock_GetCPUClockSource
  .text.Chip_Clock_SetCPUClockDiv
-                0x000009ac       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000009ac                Chip_Clock_SetCPUClockDiv
+                0x000009a0       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000009a0                Chip_Clock_SetCPUClockDiv
  .text.Chip_Clock_GetCPUClockDiv
-                0x000009cc       0x1c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000009cc                Chip_Clock_GetCPUClockDiv
+                0x000009c0       0x1c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000009c0                Chip_Clock_GetCPUClockDiv
  .text.Chip_Clock_GetPCLKDiv
-                0x000009e8       0x90 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000009e8                Chip_Clock_GetPCLKDiv
+                0x000009dc       0x90 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000009dc                Chip_Clock_GetPCLKDiv
  .text.Chip_Clock_GetSYSCLKRate
-                0x00000a78       0x34 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000a78                Chip_Clock_GetSYSCLKRate
+                0x00000a6c       0x34 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000a6c                Chip_Clock_GetSYSCLKRate
  .text.Chip_Clock_GetMainPLLOutClockRate
-                0x00000aac       0x54 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000aac                Chip_Clock_GetMainPLLOutClockRate
+                0x00000aa0       0x54 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000aa0                Chip_Clock_GetMainPLLOutClockRate
  .text.Chip_Clock_GetMainClockRate
-                0x00000b00       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000b00                Chip_Clock_GetMainClockRate
+                0x00000af4       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000af4                Chip_Clock_GetMainClockRate
  .text.Chip_Clock_GetSystemClockRate
-                0x00000b28       0x18 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000b28                Chip_Clock_GetSystemClockRate
+                0x00000b1c       0x18 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000b1c                Chip_Clock_GetSystemClockRate
  .text.Chip_Clock_GetPeripheralClockRate
-                0x00000b40       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000b40                Chip_Clock_GetPeripheralClockRate
+                0x00000b34       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000b34                Chip_Clock_GetPeripheralClockRate
  .text.getClkRate
-                0x00000b68       0x24 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000b5c       0x24 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.startMasterXfer
-                0x00000b8c       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000b80       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.startSlaverXfer
-                0x00000bac       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000ba0       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.isI2CBusFree
-                0x00000bcc       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000bc0       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.getCurState
-                0x00000bf4       0x1c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000be8       0x1c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.handleMasterXferState
-                0x00000c10      0x284 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00000c10                handleMasterXferState
+                0x00000c04      0x284 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000c04                handleMasterXferState
  .text.Chip_I2C_EventHandler
-                0x00000e94       0x4c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00000e94                Chip_I2C_EventHandler
+                0x00000e88       0x4c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000e88                Chip_I2C_EventHandler
  .text.Chip_I2C_EventHandlerPolling
-                0x00000ee0       0x5c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00000ee0                Chip_I2C_EventHandlerPolling
+                0x00000ed4       0x5c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000ed4                Chip_I2C_EventHandlerPolling
  .text.Chip_I2C_SetClockRate
-                0x00000f3c       0x68 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00000f3c                Chip_I2C_SetClockRate
+                0x00000f30       0x68 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000f30                Chip_I2C_SetClockRate
  .text.Chip_I2C_SetMasterEventHandler
-                0x00000fa4       0x4c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00000fa4                Chip_I2C_SetMasterEventHandler
+                0x00000f98       0x4c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000f98                Chip_I2C_SetMasterEventHandler
  .text.Chip_I2C_MasterTransfer
-                0x00000ff0       0x9c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00000ff0                Chip_I2C_MasterTransfer
+                0x00000fe4       0x9c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000fe4                Chip_I2C_MasterTransfer
  .text.Chip_I2C_MasterStateHandler
-                0x0000108c       0x5c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x0000108c                Chip_I2C_MasterStateHandler
+                0x00001080       0x5c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00001080                Chip_I2C_MasterStateHandler
  .text.Chip_I2C_IsStateChanged
-                0x000010e8       0x3c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x000010e8                Chip_I2C_IsStateChanged
+                0x000010dc       0x3c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000010dc                Chip_I2C_IsStateChanged
  .text.Chip_IOCON_PinMux
-                0x00001124       0x94 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
-                0x00001124                Chip_IOCON_PinMux
+                0x00001118       0x94 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00001118                Chip_IOCON_PinMux
  .text.Chip_Clock_IsMainPLLEnabled
-                0x000011b8       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x000011ac       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLLocked
-                0x000011e0       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x000011d4       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLConnected
-                0x00001208       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x000011fc       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_EnableCrystal
-                0x00001230       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00001224       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsCrystalEnabled
-                0x00001250       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00001244       0x28 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_SetMainPLLSource
-                0x00001278       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x0000126c       0x20 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_SetupIrcClocking
-                0x00001298       0x68 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
-                0x00001298                Chip_SetupIrcClocking
+                0x0000128c       0x68 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x0000128c                Chip_SetupIrcClocking
  .text.Chip_SetupXtalClocking
-                0x00001300       0x90 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
-                0x00001300                Chip_SetupXtalClocking
+                0x000012f4       0x90 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x000012f4                Chip_SetupXtalClocking
  .text.Chip_SystemInit
-                0x00001390        0xc D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
-                0x00001390                Chip_SystemInit
+                0x00001384        0xc D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00001384                Chip_SystemInit
  .text.__weak_main
-                0x0000139c        0x4 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
-                0x0000139c                __weak_main
-                0x0000139c                __main
+                0x00001390        0x4 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x00001390                __weak_main
+                0x00001390                __main
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata.OscRateIn
-                0x000013a0        0x4 ./src/sysinit.o
-                0x000013a0                OscRateIn
+                0x00001394        0x4 ./src/sysinit.o
+                0x00001394                OscRateIn
  .rodata.RTCOscRateIn
-                0x000013a4        0x4 ./src/sysinit.o
-                0x000013a4                RTCOscRateIn
+                0x00001398        0x4 ./src/sysinit.o
+                0x00001398                RTCOscRateIn
  .rodata.I2C_PeriphClk
-                0x000013a8        0x4 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x000013ac                . = ALIGN (0x4)
+                0x0000139c        0x4 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000013a0                . = ALIGN (0x4)
 
-.glue_7         0x000013ac        0x0
+.glue_7         0x000013a0        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x000013ac        0x0
+.glue_7t        0x000013a0        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x000013ac        0x0
+.vfp11_veneer   0x000013a0        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x000013ac        0x0
+.v4_bx          0x000013a0        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x000013ac        0x0
+.iplt           0x000013a0        0x0
  .iplt          0x00000000        0x0 ./src/I2C_MPU.o
 
-.rel.dyn        0x000013ac        0x0
+.rel.dyn        0x000013a0        0x0
  .rel.iplt      0x00000000        0x0 ./src/I2C_MPU.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000013ac                __exidx_start = .
+                0x000013a0                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000013ac                __exidx_end = .
-                0x000013ac                _etext = .
+                0x000013a0                __exidx_end = .
+                0x000013a0                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x000013ac
+.data_RAM2      0x2007c000        0x0 load address 0x000013a0
  FILL mask 0xff
                 0x2007c000                PROVIDE (__start_data_RAM2, .)
  *(.ramfunc.$RAM2)
@@ -1168,7 +1168,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000       0x54 load address 0x000013ac
+.data           0x10000000       0x54 load address 0x000013a0
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -1178,7 +1178,7 @@ END GROUP
                 0x10000054                . = ALIGN (0x4)
                 0x10000054                _edata = .
 
-.igot.plt       0x10000054        0x0 load address 0x00001400
+.igot.plt       0x10000054        0x0 load address 0x000013f4
  .igot.plt      0x00000000        0x0 ./src/I2C_MPU.o
 
 .bss_RAM2       0x2007c000        0x0
@@ -1217,33 +1217,33 @@ END GROUP
                 0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
 OUTPUT(MPU-6050.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x3d2a
+.debug_info     0x00000000     0x3d2f
  .debug_info    0x00000000      0x42d ./src/I2C_MPU.o
  .debug_info    0x0000042d      0x84c ./src/Initializer.o
- .debug_info    0x00000c79      0x1d2 ./src/MPU-6050.o
- .debug_info    0x00000e4b      0x507 ./src/MPU6050.o
- .debug_info    0x00001352      0x24b ./src/cr_startup_lpc175x_6x.o
- .debug_info    0x0000159d       0x3f ./src/crp.o
- .debug_info    0x000015dc      0x1b1 ./src/sysinit.o
- .debug_info    0x0000178d      0x50a D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_info    0x00001c97      0xb46 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_info    0x000027dd      0xe43 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_info    0x00003620      0x2d9 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_info    0x000038f9      0x431 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_info    0x00000c79      0x1e5 ./src/MPU-6050.o
+ .debug_info    0x00000e5e      0x4f9 ./src/MPU6050.o
+ .debug_info    0x00001357      0x24b ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x000015a2       0x3f ./src/crp.o
+ .debug_info    0x000015e1      0x1b1 ./src/sysinit.o
+ .debug_info    0x00001792      0x50a D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_info    0x00001c9c      0xb46 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_info    0x000027e2      0xe43 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_info    0x00003625      0x2d9 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_info    0x000038fe      0x431 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
 
-.debug_abbrev   0x00000000     0x10e3
+.debug_abbrev   0x00000000     0x10f4
  .debug_abbrev  0x00000000      0x166 ./src/I2C_MPU.o
  .debug_abbrev  0x00000166      0x1e3 ./src/Initializer.o
- .debug_abbrev  0x00000349       0xd5 ./src/MPU-6050.o
- .debug_abbrev  0x0000041e      0x177 ./src/MPU6050.o
- .debug_abbrev  0x00000595       0xf5 ./src/cr_startup_lpc175x_6x.o
- .debug_abbrev  0x0000068a       0x36 ./src/crp.o
- .debug_abbrev  0x000006c0       0xca ./src/sysinit.o
- .debug_abbrev  0x0000078a      0x138 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_abbrev  0x000008c2      0x2e4 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_abbrev  0x00000ba6      0x2a6 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_abbrev  0x00000e4c      0x126 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_abbrev  0x00000f72      0x171 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_abbrev  0x00000349       0xe6 ./src/MPU-6050.o
+ .debug_abbrev  0x0000042f      0x177 ./src/MPU6050.o
+ .debug_abbrev  0x000005a6       0xf5 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x0000069b       0x36 ./src/crp.o
+ .debug_abbrev  0x000006d1       0xca ./src/sysinit.o
+ .debug_abbrev  0x0000079b      0x138 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_abbrev  0x000008d3      0x2e4 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_abbrev  0x00000bb7      0x2a6 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_abbrev  0x00000e5d      0x126 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_abbrev  0x00000f83      0x171 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
 
 .debug_aranges  0x00000000      0x4d8
  .debug_aranges
@@ -1337,44 +1337,44 @@ OUTPUT(MPU-6050.axf elf32-littlearm)
  .debug_macro   0x0000524e      0x1e1 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
  .debug_macro   0x0000542f      0x1e1 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
 
-.debug_line     0x00000000     0x34da
+.debug_line     0x00000000     0x34db
  .debug_line    0x00000000      0x4e6 ./src/I2C_MPU.o
  .debug_line    0x000004e6      0x4c8 ./src/Initializer.o
- .debug_line    0x000009ae      0x4a2 ./src/MPU-6050.o
- .debug_line    0x00000e50      0x568 ./src/MPU6050.o
- .debug_line    0x000013b8       0xd5 ./src/cr_startup_lpc175x_6x.o
- .debug_line    0x0000148d       0x78 ./src/crp.o
- .debug_line    0x00001505      0x41c ./src/sysinit.o
- .debug_line    0x00001921      0x46c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_line    0x00001d8d      0x6e3 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_line    0x00002470      0x730 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_line    0x00002ba0      0x458 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_line    0x00002ff8      0x4e2 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_line    0x000009ae      0x4a3 ./src/MPU-6050.o
+ .debug_line    0x00000e51      0x568 ./src/MPU6050.o
+ .debug_line    0x000013b9       0xd5 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x0000148e       0x78 ./src/crp.o
+ .debug_line    0x00001506      0x41c ./src/sysinit.o
+ .debug_line    0x00001922      0x46c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_line    0x00001d8e      0x6e3 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_line    0x00002471      0x730 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_line    0x00002ba1      0x458 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_line    0x00002ff9      0x4e2 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
 
-.debug_str      0x00000000    0x12d19
+.debug_str      0x00000000    0x12d24
  .debug_str     0x00000000    0x1082d ./src/I2C_MPU.o
                               0x1091f (size before relaxing)
  .debug_str     0x0001082d      0x502 ./src/Initializer.o
                               0x10cd9 (size before relaxing)
- .debug_str     0x00010d2f      0x9d5 ./src/MPU-6050.o
-                              0x111dc (size before relaxing)
- .debug_str     0x00011704      0x134 ./src/MPU6050.o
+ .debug_str     0x00010d2f      0x9e0 ./src/MPU-6050.o
+                              0x111e7 (size before relaxing)
+ .debug_str     0x0001170f      0x134 ./src/MPU6050.o
                               0x11389 (size before relaxing)
- .debug_str     0x00011838      0x1b2 ./src/cr_startup_lpc175x_6x.o
+ .debug_str     0x00011843      0x1b2 ./src/cr_startup_lpc175x_6x.o
                                0x2662 (size before relaxing)
- .debug_str     0x000119ea       0xe9 ./src/crp.o
+ .debug_str     0x000119f5       0xe9 ./src/crp.o
                                0x257a (size before relaxing)
- .debug_str     0x00011ad3       0x1b ./src/sysinit.o
+ .debug_str     0x00011ade       0x1b ./src/sysinit.o
                               0x10963 (size before relaxing)
- .debug_str     0x00011aee      0x373 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_str     0x00011af9      0x373 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
                               0x10d83 (size before relaxing)
- .debug_str     0x00011e61      0x857 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_str     0x00011e6c      0x857 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
                               0x113f1 (size before relaxing)
- .debug_str     0x000126b8      0x500 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_str     0x000126c3      0x500 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
                               0x11401 (size before relaxing)
- .debug_str     0x00012bb8       0x9d D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_str     0x00012bc3       0x9d D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
                               0x1086e (size before relaxing)
- .debug_str     0x00012c55       0xc4 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_str     0x00012c60       0xc4 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
                               0x10a56 (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -1422,15 +1422,15 @@ OUTPUT(MPU-6050.axf elf32-littlearm)
  .ARM.attributes
                 0x00000264       0x33 c:/nxp/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
-.debug_frame    0x00000000     0x10d0
+.debug_frame    0x00000000     0x10d4
  .debug_frame   0x00000000       0xec ./src/I2C_MPU.o
  .debug_frame   0x000000ec       0xa0 ./src/Initializer.o
- .debug_frame   0x0000018c       0x4c ./src/MPU-6050.o
- .debug_frame   0x000001d8      0x1c0 ./src/MPU6050.o
- .debug_frame   0x00000398      0x170 ./src/cr_startup_lpc175x_6x.o
- .debug_frame   0x00000508       0x34 ./src/sysinit.o
- .debug_frame   0x0000053c       0x88 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_frame   0x000005c4      0x490 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_frame   0x00000a54      0x4c8 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_frame   0x00000f1c       0x88 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_frame   0x00000fa4      0x12c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_frame   0x0000018c       0x50 ./src/MPU-6050.o
+ .debug_frame   0x000001dc      0x1c0 ./src/MPU6050.o
+ .debug_frame   0x0000039c      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x0000050c       0x34 ./src/sysinit.o
+ .debug_frame   0x00000540       0x88 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_frame   0x000005c8      0x490 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_frame   0x00000a58      0x4c8 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_frame   0x00000f20       0x88 D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_frame   0x00000fa8      0x12c D:\UTN - Apuntes\UTN 2015\PROYECTO\LPCXpresso_WorkSpace\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
